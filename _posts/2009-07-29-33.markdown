@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Safety in Numbers"
+issue: "33"
+---
+<img src="{{ site.url }}/comics/33.gif" title="Your call may be recorded for quality assurance purposes." alt="Comic image" width="778px" height="247px"/>
+
+The Disco Squad just got Google Voice, which is apparently the system to get for the true voicemail aficionados among us. Unfortunately, it's invite only. For now.

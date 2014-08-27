@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Conference"
+issue: "63"
+---
+<img src="{{ site.url }}/comics/63.png" title="Do you feel that pipes are still necessary for modern crime solving?  &quot;Didn't you hear my previous answer?&quot;" alt="Comic image" width="780px" height="250px"/>
+
+I'm at CHI2010!

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "New Pet"
+issue: "56"
+---
+<img src="{{ site.url }}/comics/56.png" title="Barbarian!" alt="Comic image" width="780px" height="250px"/>
+

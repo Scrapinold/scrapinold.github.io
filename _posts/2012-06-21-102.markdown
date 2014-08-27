@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Satisfaction Guaranteed"
+issue: "102"
+---
+<img src="{{ site.url }}/comics/102.png" title="That will be $10,000, please." alt="Comic image" width="780px" height="250px"/>
+

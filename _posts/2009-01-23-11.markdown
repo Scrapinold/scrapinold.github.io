@@ -1,0 +1,7 @@
+---
+layout: post
+title: "For Your Safety"
+issue: "11"
+---
+<img src="{{ site.url }}/comics/11.png" title="He seemed harmless, really." alt="Comic image" width="778px" height="255px"/>
+

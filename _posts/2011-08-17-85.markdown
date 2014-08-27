@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Guilty"
+issue: "85"
+---
+<img src="{{ site.url }}/comics/85.png" title="Better sign that confession" alt="Comic image" width="780px" height="250px"/>
+
+I've been playing entirely too much Phoenix Wright

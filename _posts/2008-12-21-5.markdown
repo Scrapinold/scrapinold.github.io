@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Bridge Over Troubled Eickhoff"
+issue: "5"
+---
+<img src="{{ site.url }}/comics/5.png" title="Only Smart Balance(TM) spread with omega-3s comes even close." alt="Comic image" width="778px" height="249px"/>
+

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Chapter 1"
+issue: "50"
+---
+<img src="{{ site.url }}/comics/50.png" title="Only 49688 words to go." alt="Comic image" width="780px" height="554px"/>
+

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Honoris Causa"
+issue: "19"
+---
+<img src="{{ site.url }}/comics/19.gif" title="I knew that degree would come in handy!" alt="Comic image" width="778px" height="222px"/>
+

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "New Job"
+issue: "3"
+---
+<img src="{{ site.url }}/comics/3.png" title="But what College could that be???" alt="Comic image" width="778px" height="208px"/>
+

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Flag Day"
+issue: "71"
+---
+<img src="{{ site.url }}/comics/71.png" title='“The neighbors never seem to like my American flag."' alt="Comic image" width="780px" height="279px"/>
+

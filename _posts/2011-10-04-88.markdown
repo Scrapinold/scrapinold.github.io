@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Recipe for Murder: Part 1"
+issue: "88"
+---
+<img src="{{ site.url }}/comics/88.png" title="No no, I don't mean I'm going to have grilled cheese!" alt="Comic image" width="780px" height="250px"/>
+
+I decided it was time to do a story arc for no reason!

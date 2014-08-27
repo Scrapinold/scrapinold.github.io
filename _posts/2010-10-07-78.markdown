@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Agenda"
+issue: "78"
+---
+<img src="{{ site.url }}/comics/78.png" title="The homosexuals, and the Dennis Club, will obviously cause the destruction of society. Because, you know, the bible said so." alt="Comic image" width="780px" height="250px"/>
+

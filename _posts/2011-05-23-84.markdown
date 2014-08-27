@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Happy Ending"
+issue: "84"
+---
+<img src="{{ site.url }}/comics/84.png" title="The proactive approach to predicting the rapture" alt="Comic image" width="780px" height="250px"/>
+

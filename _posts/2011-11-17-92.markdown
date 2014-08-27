@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Recipe for Murder, Part 5"
+issue: "92"
+---
+<img src="{{ site.url }}/comics/92.png" title="Another shocking twist!" alt="Comic image" width="780px" height="250px"/>
+

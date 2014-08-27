@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Recipe for Murder, Part 6"
+issue: "93"
+---
+<img src="{{ site.url }}/comics/93.png" title="Which dimension is that one again?" alt="Comic image" width="780px" height="250px"/>
+

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Transscrapinold"
+issue: "76"
+---
+<img src="{{ site.url }}/comics/76.png" title="Don't worry, I'll just put tape over that light." alt="Comic image" width="780px" height="250px"/>
+

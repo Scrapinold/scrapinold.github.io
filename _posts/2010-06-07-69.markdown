@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Some Face Time"
+issue: "69"
+---
+<img src="{{ site.url }}/comics/69.png" title="This is going to change the way we communicate forever!" alt="Comic image" width="780px" height="230px"/>
+
+Apple announced the iPhone 4 today, which includes video chat!  Of course, the video chat is only available over...wi-fi connections (you can just pretend that it's not a cellphone!).  Nonetheless, that didn't stop Apple's Senior VP of Industrial Design, Jonathan Ive, from proclaiming that the new feature would "change the way we communicate forever."

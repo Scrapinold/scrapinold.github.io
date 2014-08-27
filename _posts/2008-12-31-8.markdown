@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Das Neu Jahr"
+issue: "8"
+---
+<img src="{{ site.url }}/comics/8.png" title="It's time to buy that gym membership!" alt="Comic image" width="778px" height="249px"/>
+

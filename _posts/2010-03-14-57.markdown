@@ -1,0 +1,7 @@
+---
+layout: post
+title: "There's an app for that"
+issue: "57"
+---
+<img src="{{ site.url }}/comics/57.png" title="★★★★★ - GREAT APP CANT BELIVE ITS ONLY ONE $" alt="Comic image" width="780px" height="250px"/>
+

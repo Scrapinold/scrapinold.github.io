@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Shock Therapy"
+issue: "79"
+---
+<img src="{{ site.url }}/comics/79.png" title="If it weren't for big government, these robots would be far more efficient!" alt="Comic image" width="780px" height="250px"/>
+

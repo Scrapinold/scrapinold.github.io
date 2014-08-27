@@ -1,5 +1,0 @@
----
-layout: post
-title:  "Blackout"
----
-![I sure love alt text]({{ site.url }}/comics/105.png)

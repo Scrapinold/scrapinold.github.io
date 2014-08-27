@@ -1,0 +1,7 @@
+---
+layout: post
+title: "An Unusual Prognosis"
+issue: "64"
+---
+<img src="{{ site.url }}/comics/64.png" title="A doctoral degree in classical studies shows its usefulness" alt="Comic image" width="780px" height="250px"/>
+

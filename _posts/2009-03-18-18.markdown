@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Q. E. D."
+issue: "18"
+---
+<img src="{{ site.url }}/comics/18.gif" title="Take that, math." alt="Comic image" width="778px" height="222px"/>
+

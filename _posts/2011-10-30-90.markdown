@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Recipe for Murder, Part 3"
+issue: "90"
+---
+<img src="{{ site.url }}/comics/90.png" title="Also, the picture's definitely upside-down." alt="Comic image" width="780px" height="250px"/>
+
+I have been playing entirely too much Phoenix Wright.

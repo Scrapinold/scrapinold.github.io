@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Transaction Complete"
+issue: "54"
+---
+<img src="{{ site.url }}/comics/54.png" title="Curse these blasted tourists!  I have a palace to guard!" alt="Comic image" width="780px" height="230px"/>
+
+A continuation of the previous comic!  The name "Collins McCollins" *was* actually the name on the email that appeared in issue 53.

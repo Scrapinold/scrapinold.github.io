@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Literal"
+issue: "107"
+---
+<img src="{{ site.url }}/comics/107.png" title="WHO BOUGHT THIS???" alt="Comic image" width="780px" height="250px"/>
+

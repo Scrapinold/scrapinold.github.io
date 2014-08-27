@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Earl Grey"
+issue: "58"
+---
+<img src="{{ site.url }}/comics/58.png" title="No, we're only here to have an in-depth discussion regarding the nature of tea.  Drinking it would spoil the conversation. " alt="Comic image" width="780px" height="250px"/>
+
+[http://en.wikipedia.org/wiki/Tea_Party_movement](http://en.wikipedia.org/wiki/Tea_Party_movement)

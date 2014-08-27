@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Scandinavian Design"
+issue: "46"
+---
+<img src="{{ site.url }}/comics/46.png" title="MYSTERY SOLVING SOFTWARE LOADING" alt="Comic image" width="780px" height="230px"/>
+

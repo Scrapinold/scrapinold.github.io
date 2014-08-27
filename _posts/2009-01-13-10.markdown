@@ -1,0 +1,7 @@
+---
+layout: post
+title: "2148 A.D."
+issue: "10"
+---
+<img src="{{ site.url }}/comics/10.png" title="If my parents find out about this, I'll never be born!" alt="Comic image" width="778px" height="249px"/>
+

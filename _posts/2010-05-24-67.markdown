@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Perfect Replacements"
+issue: "67"
+---
+<img src="{{ site.url }}/comics/67.png" title="THE WEATHER MUST BE DESTROYED." alt="Comic image" width="780px" height="250px"/>
+

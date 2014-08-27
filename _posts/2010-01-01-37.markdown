@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Das Neuer Jahr"
+issue: "37"
+---
+<img src="{{ site.url }}/comics/37.png" title="So sad." alt="Comic image" width="780px" height="230px"/>
+
+Wow!  A new issue!  And a new layout, based on Futura, because everyone likes Futura!

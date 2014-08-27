@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Was machst du, Scrapinold?"
+issue: "16"
+---
+<img src="{{ site.url }}/comics/16.png" title="So...do you even have a ticket?" alt="Comic image" width="778px" height="255px"/>
+

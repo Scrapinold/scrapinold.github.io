@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Enter Eickhoff"
+issue: "4"
+---
+<img src="{{ site.url }}/comics/4.png" title="Now where will we eat lunch?" alt="Comic image" width="778px" height="255px"/>
+

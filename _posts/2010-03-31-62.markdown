@@ -1,0 +1,7 @@
+---
+layout: post
+title: "April Fool"
+issue: "62"
+---
+<img src="{{ site.url }}/comics/62.gif" title="the joke is that it's an ipad OHHH SNAPPPPP" alt="Comic image" width="780px" height="250px"/>
+

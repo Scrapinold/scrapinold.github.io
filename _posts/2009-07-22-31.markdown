@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Film 101"
+issue: "31"
+---
+<img src="{{ site.url }}/comics/31.gif" title="Well, if you think it would improve this WWII tragic-thriller..." alt="Comic image" width="778px" height="260px"/>
+
+It's quite true. Also, explosions are an important part of any emotional scene.

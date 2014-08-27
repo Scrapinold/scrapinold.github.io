@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Rocketman"
+issue: "12"
+---
+<img src="{{ site.url }}/comics/12.png" title="Pressurized suits are for suckers." alt="Comic image" width="778px" height="249px"/>
+

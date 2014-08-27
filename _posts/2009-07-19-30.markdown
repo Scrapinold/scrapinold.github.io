@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Focal Plane"
+issue: "30"
+---
+<img src="{{ site.url }}/comics/30.gif" title="..." alt="Comic image" width="778px" height="230px"/>
+
+Totally not a ripoff of http://xkcd.com/6/

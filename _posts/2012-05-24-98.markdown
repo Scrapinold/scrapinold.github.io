@@ -1,0 +1,10 @@
+---
+layout: post
+title: "The People's Cinema"
+issue: "98"
+---
+<img src="{{ site.url }}/comics/98.png" title="Hmm...I would like two tickets to 'Taking Tiger Mountain By Strategies', please." alt="Comic image" width="780px" height="250px"/>
+
+So, AMC theaters was recently purchased by a Chinese firm!  (source: [http://www.latimes.com/entertainment/news/movies/la-fi-0522-ct-amc-wanda-react-20120522,0,111278.story](http://www.latimes.com/entertainment/news/movies/la-fi-0522-ct-amc-wanda-react-20120522,0,111278.story))  
+
+While this comic of course represents the optimal result of that merger, somehow I suspect reality will be less dramatic.

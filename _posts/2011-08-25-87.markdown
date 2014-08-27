@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Elementary"
+issue: "87"
+---
+<img src="{{ site.url }}/comics/87.png" title="From the evidence, it is clear that the case is unsolvable." alt="Comic image" width="780px" height="250px"/>
+

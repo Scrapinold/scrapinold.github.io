@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Mystery Solved"
+issue: "1"
+---
+<img src="{{ site.url }}/comics/1.png" title="That was close." alt="Comic image" width="778px" height="301px"/>
+

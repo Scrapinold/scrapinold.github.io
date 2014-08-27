@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Fully Loaded"
+issue: "29"
+---
+<img src="{{ site.url }}/comics/29.gif" title="Erm...we include that...feature...for...uhh...traffic jams." alt="Comic image" width="778px" height="230px"/>
+

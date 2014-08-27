@@ -1,0 +1,8 @@
+---
+layout: post
+title: "A Perfect Getaway"
+issue: "36"
+---
+<img src="{{ site.url }}/comics/36.gif" title="It's a good thing you brought that bloody knife!  You never know when I might strike again!" alt="Comic image" width="778px" height="260px"/>
+
+I saw "A Perfect Getaway" this past weekend. The best part was the complete lack of any plot movement until the very end of the film.

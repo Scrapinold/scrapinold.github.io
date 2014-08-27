@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Semper Caesus"
+issue: "26"
+---
+<img src="{{ site.url }}/comics/26.gif" title="You...disobeyed me.  That was the test.  You've won." alt="Comic image" width="778px" height="230px"/>
+

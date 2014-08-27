@@ -1,0 +1,7 @@
+---
+layout: post
+title: "9th Degree"
+issue: "35"
+---
+<img src="{{ site.url }}/comics/35.gif" title="By that, I mean you have to break the mirror." alt="Comic image" width="778px" height="230px"/>
+

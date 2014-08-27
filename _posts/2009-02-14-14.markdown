@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Enter the Squid"
+issue: "14"
+---
+<img src="{{ site.url }}/comics/14.png" title="This explains everything!" alt="Comic image" width="778px" height="255px"/>
+

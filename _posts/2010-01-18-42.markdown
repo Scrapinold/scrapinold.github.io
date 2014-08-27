@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Summa Cum Caeso"
+issue: "42"
+---
+<img src="{{ site.url }}/comics/42.png" title="Uhh, Professor Cheese?  Are you still listening?" alt="Comic image" width="780px" height="230px"/>
+
+If only he'd had that one last credit at Trenton State.

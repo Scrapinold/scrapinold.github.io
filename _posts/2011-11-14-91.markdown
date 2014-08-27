@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Recipe for Murder, Part 4"
+issue: "91"
+---
+<img src="{{ site.url }}/comics/91.png" title="Jury?  What's a jury?" alt="Comic image" width="780px" height="250px"/>
+

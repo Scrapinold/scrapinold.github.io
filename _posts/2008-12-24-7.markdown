@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Scrapinold's Magical Christmas"
+issue: "7"
+---
+<img src="{{ site.url }}/comics/7.png" title="I haven't missed it!  The Spirits have done it all in one night! They can do anything they like!" alt="Comic image" width="778px" height="249px"/>
+

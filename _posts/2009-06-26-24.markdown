@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Touché"
+issue: "24"
+---
+<img src="{{ site.url }}/comics/24.gif" title="You-you're right!  Perhaps this murder, nay, my entire life, has been naught more than a trick of the mind!" alt="Comic image" width="778px" height="260px"/>
+

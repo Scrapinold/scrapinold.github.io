@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Board of Directors"
+issue: "49"
+---
+<img src="{{ site.url }}/comics/49.png" title='Those "X-Treme Drug Skateboarding" commercials which ran during the 4-6pm time slots on relevant networks will really speak to the mid-adolescent demographic.' alt="Comic image" width="780px" height="280px"/>
+

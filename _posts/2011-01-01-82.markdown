@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Das Neueste Jahr"
+issue: "82"
+---
+<img src="{{ site.url }}/comics/82.png" title="Coming up next: could not watching the news on this channel every day kill your children?" alt="Comic image" width="780px" height="250px"/>
+
+With a new year comes a new design, this time taking inspiration from instruction manuals of the 1990s!

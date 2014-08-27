@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Digital Millennium"
+issue: "59"
+---
+<img src="{{ site.url }}/comics/59.png" title="Finally!  I can drink from my e-mug while writing e-letters with my e-pen!" alt="Comic image" width="780px" height="250px"/>
+
+I bought a [url=http://www.thinkgeek.com/geektoys/games/ba3d/]Rubik's TouchCube[/url] the other day when I saw it on sale at Best Buy for $20.  It's completely pointless.

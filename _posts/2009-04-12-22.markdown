@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Antihistamine"
+issue: "22"
+---
+<img src="{{ site.url }}/comics/22.gif" title="Well, that's what most people want to buy." alt="Comic image" width="778px" height="222px"/>
+

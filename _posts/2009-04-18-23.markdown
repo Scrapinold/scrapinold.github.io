@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Exile"
+issue: "23"
+---
+<img src="{{ site.url }}/comics/23.png" title="That's the third time this week!" alt="Comic image" width="778px" height="222px"/>
+

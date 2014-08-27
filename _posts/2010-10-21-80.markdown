@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Modern Medicine"
+issue: "80"
+---
+<img src="{{ site.url }}/comics/80.png" title="You may also be interested in one of my magnetic bracelets!" alt="Comic image" width="780px" height="250px"/>
+

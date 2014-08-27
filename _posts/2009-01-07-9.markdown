@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Western Union"
+issue: "9"
+---
+<img src="{{ site.url }}/comics/9.png" title="SORRY YOU DIED STOP PLEASE WIRE ABANDONED FUNDS TO THE FOLLOWING ACCOUNT STOP" alt="Comic image" width="778px" height="249px"/>
+

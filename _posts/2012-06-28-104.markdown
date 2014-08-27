@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Spotless"
+issue: "104"
+---
+<img src="{{ site.url }}/comics/104.png" title="This product will be a huge success!" alt="Comic image" width="780px" height="250px"/>
+

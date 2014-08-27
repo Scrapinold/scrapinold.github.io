@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Indispensable"
+issue: "74"
+---
+<img src="{{ site.url }}/comics/74.png" title="Also, radios should be required to come with record players." alt="Comic image" width="780px" height="250px"/>
+
+The RIAA (Recording Industry) is currently trying to push through [url=http://arstechnica.com/tech-policy/news/2010/08/radio-riaa-mandatory-fm-radio-in-cell-phones-is-the-future.ars]legislation that would make it mandatory to include radios on all portable devices[/url].  Exactly.

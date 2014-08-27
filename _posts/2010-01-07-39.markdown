@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Laissez-Faire"
+issue: "39"
+---
+<img src="{{ site.url }}/comics/39.png" title="Now, where's that free lunch I was promised?" alt="Comic image" width="780px" height="230px"/>
+

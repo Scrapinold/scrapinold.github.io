@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Product Development"
+issue: "45"
+---
+<img src="{{ site.url }}/comics/45.png" title="It's truly magical!" alt="Comic image" width="780px" height="230px"/>
+
+The iPad may just be a scaled up iPod touch, but I want one anyway.

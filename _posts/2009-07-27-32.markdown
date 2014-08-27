@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Postal"
+issue: "32"
+---
+<img src="{{ site.url }}/comics/32.gif" title="Fair enough." alt="Comic image" width="778px" height="230px"/>
+
+I tried to mail a letter the other day to an address that I've personally been to, and it was returned today saying it was undeliverable. Naturally, the stamp had been canceled.

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Recipe for Murder: Part 2"
+issue: "89"
+---
+<img src="{{ site.url }}/comics/89.png" title="Chief of Police: &quot;So let me get this straight...you didn't notice the name written in blood the first time, hired a private investigator and then arrested him on the spot because his name was the same as the one you failed to notice initially?&quot;" alt="Comic image" width="780px" height="250px"/>
+

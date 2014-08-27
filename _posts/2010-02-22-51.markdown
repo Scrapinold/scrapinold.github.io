@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Back to the Future"
+issue: "51"
+---
+<img src="{{ site.url }}/comics/51.png" title="Now if you'll excuse me, I'm going to watch some movies cropped to 1024x768." alt="Comic image" width="780px" height="230px"/>
+
+[http://en.wikipedia.org/wiki/File:Apple_Newton_and_iPhone.jpg](http://en.wikipedia.org/wiki/File:Apple_Newton_and_iPhone.jpg)

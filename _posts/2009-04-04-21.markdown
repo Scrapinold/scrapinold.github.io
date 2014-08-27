@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Facsimile"
+issue: "21"
+---
+<img src="{{ site.url }}/comics/21.png" title="Genetically identical" alt="Comic image" width="778px" height="222px"/>
+
+We came up with the idea for this after looking at a potato.  The original caption possibility was "How anthropomorphic dogs reproduce."

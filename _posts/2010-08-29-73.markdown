@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Protecting Innovation"
+issue: "73"
+---
+<img src="{{ site.url }}/comics/73.png" title="I didn't even realize you had invented the cane!" alt="Comic image" width="780px" height="250px"/>
+
+Patents nowadays are getting completely absurd.  Apple claims to have invented/patented multitouch, but in fact it has been actively researched [url=http://portal.acm.org/citation.cfm?id=1165385.317461]since the 1980s[/url].
+
+Of course, after searching for "frivolous patents" on Google, I found [url=http://patft.uspto.gov/netacgi/nph-Parser?Sect2=PTO1&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&d=PALL&RefSrch=yes&Query=PN%2F6049811]patent #6,049,811[/url], which is perhaps the best one of all.  It patents getting a patent!

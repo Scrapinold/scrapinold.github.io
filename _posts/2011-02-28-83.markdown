@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Case Closed"
+issue: "83"
+---
+<img src="{{ site.url }}/comics/83.png" title="Can't argue with that logic" alt="Comic image" width="780px" height="250px"/>
+

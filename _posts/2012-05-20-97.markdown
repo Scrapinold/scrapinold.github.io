@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Scrapinold, et al."
+issue: "97"
+---
+<img src="{{ site.url }}/comics/97.png" title="Increased Mystery Solving Effectiveness with Electronic Mail: A Case Study" alt="Comic image" width="780px" height="250px"/>
+

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Pecunia Cedit Mare"
+issue: "25"
+---
+<img src="{{ site.url }}/comics/25.gif" title="Commander Scrapinold!  It's a good thing you were able to infiltrate the pirates by pretending to join them, after which you donated all their money to charity." alt="Comic image" width="778px" height="230px"/>
+

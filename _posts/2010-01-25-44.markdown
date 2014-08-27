@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Operational Maneuver Group"
+issue: "44"
+---
+<img src="{{ site.url }}/comics/44.png" title="At last, I have tracked down the elusive guest0185!" alt="Comic image" width="780px" height="230px"/>
+
+Lol, France is a real place, according to Wikipedia.  Of course, the British Railways Board dissolved in 2001.  And probably never operated in France.

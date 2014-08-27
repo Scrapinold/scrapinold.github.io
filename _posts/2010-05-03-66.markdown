@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Secret of Existence"
+issue: "66"
+---
+<img src="{{ site.url }}/comics/66.png" title="They were also behind Mountain Dew." alt="Comic image" width="780px" height="250px"/>
+

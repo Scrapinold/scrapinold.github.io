@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Background Check"
+issue: "99"
+---
+<img src="{{ site.url }}/comics/99.png" title="Speaking of the weather, do you know any communist sympathizers?" alt="Comic image" width="780px" height="250px"/>
+

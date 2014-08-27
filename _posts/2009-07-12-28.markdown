@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Lurking Variable"
+issue: "28"
+---
+<img src="{{ site.url }}/comics/28.gif" title="It's a small price to pay for that $5." alt="Comic image" width="778px" height="230px"/>
+

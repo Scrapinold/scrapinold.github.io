@@ -1,0 +1,7 @@
+---
+layout: post
+title: "All's Well That Ends Well"
+issue: "6"
+---
+<img src="{{ site.url }}/comics/6.png" title="Zeus would be proud." alt="Comic image" width="778px" height="255px"/>
+

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Workers of the World, Unite!"
+issue: "20"
+---
+<img src="{{ site.url }}/comics/20.gif" title="COMRADE CHEESE SLICE!  WHAT NEWS DO YOU BRING FROM THE CAPITALIST PIGS?" alt="Comic image" width="778px" height="222px"/>
+

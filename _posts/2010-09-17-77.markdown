@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Entrepreneur"
+issue: "77"
+---
+<img src="{{ site.url }}/comics/77.png" title="Now to go drink some refreshing drinks sweetened with corn sugar!" alt="Comic image" width="780px" height="250px"/>
+
+When you drink a soda flavored with high-fructose corn syrup, you're witnessing your tax dollars at work!  (Domestic corn prices are subsidized via a [url=http://en.wikipedia.org/wiki/Farm_bill]"farm bill"[/url], some of the cost savings of which are passed on to you, the consumer.  So when you pay your taxes, think of what a good and noble cause you're supporting!

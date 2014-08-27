@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Amor Caseus Est"
+issue: "48"
+---
+<img src="{{ site.url }}/comics/48.png" title="As a roll of thunder echos across the low plain, our hero realizes that, whatever the cost...the mission must be fulfilled." alt="Comic image" width="780px" height="280px"/>
+
+The title of this comic is derived from the Latin phrase, "Amor caecus est", meaning "Love is blind."  The comic's version translates to "Love is cheese".  In addition, the word "caseus" (cheese) was also used as a term of endearment.

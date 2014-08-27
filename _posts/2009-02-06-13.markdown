@@ -1,0 +1,7 @@
+---
+layout: post
+title: "The Legend of St. Valentine"
+issue: "13"
+---
+<img src="{{ site.url }}/comics/13.gif" title="Ah, so that's why we celebrate his death." alt="Comic image" width="778px" height="242px"/>
+

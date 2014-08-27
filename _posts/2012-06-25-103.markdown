@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Stain Remover"
+issue: "103"
+---
+<img src="{{ site.url }}/comics/103.png" title="Afterward, the robot identified the cause of all the smoke stains as itself, and exploded." alt="Comic image" width="780px" height="250px"/>
+

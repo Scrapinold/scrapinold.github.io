@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Detox"
+issue: "81"
+---
+<img src="{{ site.url }}/comics/81.png" title="Of course it's healthy -- it's ALL NATURAL" alt="Comic image" width="780px" height="250px"/>
+

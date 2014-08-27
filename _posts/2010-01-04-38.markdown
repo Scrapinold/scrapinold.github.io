@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Gainful Employment"
+issue: "38"
+---
+<img src="{{ site.url }}/comics/38.png" title="Here's my CV.  When can I start?" alt="Comic image" width="780px" height="230px"/>
+
+Add Scrapinold as a friend on Facebook: [http://www.facebook.com/profile.php?id=1391965774](http://www.facebook.com/profile.php?id=1391965774)

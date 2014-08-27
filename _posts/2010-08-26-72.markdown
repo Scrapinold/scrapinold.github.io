@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Interview"
+issue: "72"
+---
+<img src="{{ site.url }}/comics/72.png" title="HOW COULD YOU NOT KNOW THE ANSWER TO THAT QUESTION?" alt="Comic image" width="780px" height="250px"/>
+
+A while ago Vinay Deolalikar came up with a proof that P was not equal to NP.  Apparently some people didn't like it.

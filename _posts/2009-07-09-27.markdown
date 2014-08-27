@@ -1,0 +1,7 @@
+---
+layout: post
+title: "The Realist"
+issue: "27"
+---
+<img src="{{ site.url }}/comics/27.gif" title='Look, I was right! ... "So says the man who is wrong!"' alt="Comic image" width="778px" height="230px"/>
+
