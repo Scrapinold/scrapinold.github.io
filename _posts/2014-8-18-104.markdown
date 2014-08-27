@@ -1,0 +1,5 @@
+---
+layout: post
+title:  "Spotless"
+---
+![I sure love alt text]({{ site.url }}/comics/104.png)

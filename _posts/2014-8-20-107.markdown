@@ -1,0 +1,5 @@
+---
+layout: post
+title:  "Literal"
+---
+![I sure love alt text]({{ site.url }}/comics/107.png)
