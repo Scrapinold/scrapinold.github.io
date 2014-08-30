@@ -5,4 +5,4 @@ issue: "40"
 ---
 <img src="{{ site.url }}/comics/40.png" title="Righteous!" alt="Comic image" width="780px" height="230px"/>
 
-Inspired by a Slashdot story from a year ago: [http://science.slashdot.org/story/09/09/30/2225245/Cosmic-Ray-Intensity-Reaches-Highest-Levels-In-50-years](http://science.slashdot.org/story/09/09/30/2225245/Cosmic-Ray-Intensity-Reaches-Highest-Levels-In-50-years)
+> Inspired by a Slashdot story from a year ago: [http://science.slashdot.org/story/09/09/30/2225245/Cosmic-Ray-Intensity-Reaches-Highest-Levels-In-50-years](http://science.slashdot.org/story/09/09/30/2225245/Cosmic-Ray-Intensity-Reaches-Highest-Levels-In-50-years)

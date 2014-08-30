@@ -5,4 +5,4 @@ issue: "41"
 ---
 <img src="{{ site.url }}/comics/41.png" title="GREETINGS COMRADE" alt="Comic image" width="780px" height="300px"/>
 
-Everyone likes pop culture references!  [Correct song to play during reading.](http://www.amazon.com/gp/product/B002ZJJNJI/ref=dm_dp_trk1?ie=UTF8&qid=1263334470&sr=8-5)
+> Everyone likes pop culture references!  [Correct song to play during reading.](http://www.amazon.com/gp/product/B002ZJJNJI/ref=dm_dp_trk1?ie=UTF8&qid=1263334470&sr=8-5)
