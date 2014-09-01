@@ -1,6 +1,6 @@
 <div class="container navigation">
 
-  <div class="row">
+  <div class="row hidden-xs">
     <div class="col-sm-4 column">
     {% if page.previous.url %}
       {% assign disabled_class = '' %}
@@ -10,7 +10,8 @@
     <a class="btn btn-link btn-lg {{disabled_class}}" role="button" href="{{site.posts.last.url}}">
       First
     </a> 
-    <a class="btn btn-outline btn-lg {{disabled_class}}" role="button" href="{{page.previous.url}}">
+    <a id="prev_link" class="btn btn-outline btn-lg {{disabled_class}}" role="button" href="{{page.previous.url}}">
+    <span class="glyphicon glyphicon-chevron-left" style="vertical-align: middle;height: 100%"></span>
       Previous
     </a> 
     </div> 
@@ -26,16 +27,42 @@
         </div>
       </div>
     </div>
-  <div class="col-sm-4 column">
+    <div class="col-sm-4 column">
+      {% if page.next.url %}
+        {% assign disabled_class = '' %}
+      {% else %}
+        {% assign disabled_class = 'disabled' %}
+      {% endif %} 
+
+      <a id="next_link" class="btn btn-outline btn-lg {{disabled_class}}" role="button" href="{{page.next.url}}">
+      Next
+<span class="glyphicon glyphicon-chevron-right" style="vertical-align: middle;height: 100%"></span>
+      </a> 
+      <a class="btn btn-link btn-lg {{disabled_class}}" role="button" href="/">Current</a>  
+    </div>
+  </div>
+
+  <div class="row visible-xs">
+    {% if page.previous.url %}
+      {% assign disabled_class = '' %}
+    {% else %}
+      {% assign disabled_class = 'disabled' %}
+    {% endif %} 
+    <a class="btn btn-link btn-sm glyphicon glyphicon-fast-backward {{disabled_class}}" role="button" href="{{site.posts.last.url}}"></a> 
+    <a class="btn btn-outline btn-sm glyphicon glyphicon-backward {{disabled_class}}" role="button" href="{{page.previous.url}}"></a> 
+
     {% if page.next.url %}
       {% assign disabled_class = '' %}
     {% else %}
       {% assign disabled_class = 'disabled' %}
     {% endif %} 
 
-    <a class="btn btn-outline btn-lg {{disabled_class}}" role="button" href="{{page.next.url}}">Next</a> 
-    <a class="btn btn-link btn-lg {{disabled_class}}" role="button" href="/">Current</a>  
-  </div>
+    <a class="btn btn-outline btn-sm glyphicon glyphicon-forward {{disabled_class}}" role="button" href="{{page.next.url}}"></a> 
+    <a class="btn btn-link btn-sm glyphicon glyphicon-fast-forward {{disabled_class}}" role="button" href="/"></a>  
+
+    <a class="btn btn-link btn-sm " role="button" href="list.html" >List</a> 
+    <a class="btn btn-link btn-sm " role="button" href="random.html" >Random</a> 
+
   </div>
  
 </div>

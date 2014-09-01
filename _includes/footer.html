@@ -15,16 +15,28 @@ $( document ).ready(function() {
 
 	$(window).on('resize', checkForOverflow);
 
+	$(document).bind('keydown', function(e) {
+	    if ((e.keyCode || e.which) == 37) {
+	        // Left arrow key pressed
+	        window.location.href = $('#prev_link').attr('href');
+	    } else if ((e.keyCode || e.which) == 39) {
+	        // right arrow key pressed
+	        window.location.href = $('#next_link').attr('href');
+	    }
+	});
+
 });
 
 function checkForOverflow() {
-	var container = $('#main_container');
+	var body = $('body');
 
-	if(container[0].scrollHeight > container[0].clientHeight) {
-		container.addClass('overflowing');
+	if (body.height() > $(window).height()) {
+		body.addClass('overflowing');
 	} else {
-		container.removeClass('overflowing');
+		body.removeClass('overflowing');
 	}
+
+	body.css('padding-bottom', $('.navigation').outerHeight() + 'px');
 }
 
 

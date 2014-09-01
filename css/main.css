@@ -3,6 +3,9 @@ body {
   font-size: 16px;
   color: white;
   text-align: center;
+  background: black url('images/bg.jpg') center top no-repeat fixed;
+  background-size: cover;
+  padding-bottom: 72px;
 
   /* since we only weird text-floating-over-backgrounds */
   -webkit-font-smoothing: antialiased;
@@ -16,19 +19,6 @@ a:hover, a:focus {
   color: white;
   text-decoration: underline;
 }
-
-#main_container {
-  background: black url('images/bg.jpg') center top no-repeat fixed;
-  background-size: cover;
-  position: absolute;
-  overflow: auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding-bottom: 100px;
-}
-
 
 .title a {
   color: rgba(255, 255, 255, 0.6);
@@ -46,6 +36,24 @@ a:hover, a:focus {
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.7);
 }
+
+.header {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+}
+
+.header a {
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  .jumbotron {
+    padding: 20px 0 0 0;
+  }
+}
+
 
 
 /* nav bar */
@@ -67,18 +75,45 @@ a:hover, a:focus {
 }
 
 .navigation > .row {
-  width: 80%;
   margin: 0px auto;
+  width: 100%;
 }
 
-.navigation .btn {
+@media (min-width: 1140px) {
+  .navigation > .row {
+    width: 80%;
+    margin: 0px auto;
+  }
+}
+
+
+
+.navigation .btn-lg {
   width: 100px;
   height: 50px;
   padding: 12px 16px;
 }
 
-.navigation .btn-outline {
+.navigation .btn-lg.btn-outline {
   width: 154px;
+}
+
+@media (max-width: 992px) {
+  .navigation .btn-lg {
+    width: 69px;
+  }
+
+  .navigation .btn-lg.btn-outline {
+    width: 130px;
+  }
+}
+
+
+.navigation .btn-sm {
+  width: 50px;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
 .issue_indicator {
@@ -134,7 +169,7 @@ a:hover, a:focus {
 
 .popover {
   background-color: rgba(0, 0, 0, 0.8);
-  font-family: helvetica;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   word-wrap: break-word;
   max-width: 500px;
   box-shadow: none;
@@ -154,9 +189,28 @@ a:hover, a:focus {
   background-color: rgba(255,255,255,0.2);
 }
 
+/* about page */
+.post-content {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: left;
+  background-color: rgba(255,255,255,0.8);
+  color: black;
+  padding: 40px;
+  border-radius: 5px;
+  max-width:960px;
+}
+
+.post-content a {
+  color: #0E5A9C;
+}
+
+hr {
+  border-color: black;
+}
+
 /* specific bootstrap overrides */
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, .h1 {
   font-family: inherit;
   font-weight: bold;
   text-transform: uppercase;
@@ -167,14 +221,18 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0;
 }
 
-@media screen and (min-width: 768px) {
-  .jumbotron h1, .jumbotron .h1 {
-    font-size: 48px;
-  }
+.jumbotron.short {
+  padding-bottom: 0;
+}
 
+@media screen and (min-width: 768px) {
   .jumbotron {
     padding-top: 70px;
     padding-bottom: 48px;
+  }
+
+  .jumbotron h1, .jumbotron .h1 {
+    font-size: 48px;
   }
 }
 

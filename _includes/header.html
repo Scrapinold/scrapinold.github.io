@@ -1,14 +1,30 @@
 
-<!-- <div class="header">
+<div class="header">
+
+{% assign is_post = false %}
+
+{% unless page.id or page.url == '/index.html' %}
+	{% assign is_post = true %}
+{% endunless %}
+
+
+{% if is_post == true %}
+  <ul class="nav nav-pills pull-left">
+    <li><a href="/"><span class="glyphicon glyphicon-home"></span> Back to Main page</a></li>
+  </ul>
+{% endif %}
+
   <ul class="nav nav-pills pull-right">
     {% for page in site.pages %}
-
-      {% if page.title %}<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>{% endif %}
+      {% if page.title %}
+      	<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+      {% endif %}
     {% endfor %}
   </ul>
-</div> -->
 
-<div class="jumbotron title">
+</div>
+
+<div class="jumbotron title {% if is_post %}short{% endif %}">
   <div class="container">
     <h1 class="title"><a href="{{ site.baseurl }}/">The New Adventures of <b>Scrapinold Dooington</b></a></h1>
     <p class="lead">By Freaky T and the Disco Squad</p>
