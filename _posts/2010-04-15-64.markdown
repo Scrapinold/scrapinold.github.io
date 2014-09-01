@@ -2,6 +2,9 @@
 layout: post
 title: "An Unusual Prognosis"
 issue: "64"
+image_url: "/comics/64.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "A doctoral degree in classical studies shows its usefulness"
 ---
-<img src="{{ site.url }}/comics/64.png" title="A doctoral degree in classical studies shows its usefulness" alt="Comic image" width="780px" height="250px"/>
 

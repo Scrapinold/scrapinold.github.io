@@ -2,6 +2,9 @@
 layout: post
 title: "Flag Day"
 issue: "71"
+image_url: "/comics/71.png"
+image_width: "780px"
+image_height: "279px"
+hover_text: '“The neighbors never seem to like my American flag."'
 ---
-<img src="{{ site.url }}/comics/71.png" title='“The neighbors never seem to like my American flag."' alt="Comic image" width="780px" height="279px"/>
 

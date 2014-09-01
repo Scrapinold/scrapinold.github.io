@@ -2,7 +2,9 @@
 layout: post
 title: "Positive Infinity"
 issue: "96"
+image_url: "/comics/96.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "What do you mean I can't buy out the company with my expense account!?"
 ---
-<img src="{{ site.url }}/comics/96.png" title="What do you mean I can't buy out the company with my expense account!?" alt="Comic image" width="780px" height="250px"/>
-
 Expense accounts are the best; there was this one time, I ordered a $60 salmon.

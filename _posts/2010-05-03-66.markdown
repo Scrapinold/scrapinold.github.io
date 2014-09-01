@@ -2,6 +2,9 @@
 layout: post
 title: "Secret of Existence"
 issue: "66"
+image_url: "/comics/66.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "They were also behind Mountain Dew."
 ---
-<img src="{{ site.url }}/comics/66.png" title="They were also behind Mountain Dew." alt="Comic image" width="780px" height="250px"/>
 

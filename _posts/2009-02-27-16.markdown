@@ -2,6 +2,9 @@
 layout: post
 title: "Was machst du, Scrapinold?"
 issue: "16"
+image_url: "/comics/16.png"
+image_width: "778px"
+image_height: "255px"
+hover_text: "So...do you even have a ticket?"
 ---
-<img src="{{ site.url }}/comics/16.png" title="So...do you even have a ticket?" alt="Comic image" width="778px" height="255px"/>
 

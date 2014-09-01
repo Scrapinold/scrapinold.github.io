@@ -2,6 +2,9 @@
 layout: post
 title: "Blackout"
 issue: "105"
+image_url: "/comics/105.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "They actually just faked their own deaths to avoid hearing the rest of the story."
 ---
-<img src="{{ site.url }}/comics/105.png" title="They actually just faked their own deaths to avoid hearing the rest of the story." alt="Comic image" width="780px" height="250px"/>
 

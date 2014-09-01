@@ -2,6 +2,9 @@
 layout: post
 title: "Detox"
 issue: "81"
+image_url: "/comics/81.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "Of course it's healthy -- it's ALL NATURAL"
 ---
-<img src="{{ site.url }}/comics/81.png" title="Of course it's healthy -- it's ALL NATURAL" alt="Comic image" width="780px" height="250px"/>
 

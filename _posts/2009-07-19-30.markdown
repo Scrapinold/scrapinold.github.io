@@ -2,7 +2,9 @@
 layout: post
 title: "Focal Plane"
 issue: "30"
+image_url: "/comics/30.gif"
+image_width: "778px"
+image_height: "230px"
+hover_text: "..."
 ---
-<img src="{{ site.url }}/comics/30.gif" title="..." alt="Comic image" width="778px" height="230px"/>
-
 Totally not a ripoff of http://xkcd.com/6/

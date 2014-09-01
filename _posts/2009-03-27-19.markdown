@@ -2,6 +2,9 @@
 layout: post
 title: "Honoris Causa"
 issue: "19"
+image_url: "/comics/19.gif"
+image_width: "778px"
+image_height: "222px"
+hover_text: "I knew that degree would come in handy!"
 ---
-<img src="{{ site.url }}/comics/19.gif" title="I knew that degree would come in handy!" alt="Comic image" width="778px" height="222px"/>
 

@@ -2,7 +2,9 @@
 layout: post
 title: "El Nuevo Año"
 issue: "94"
+image_url: "/comics/94.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "There's no doubt, NAFTA will usher in the end times."
 ---
-<img src="{{ site.url }}/comics/94.png" title="There's no doubt, NAFTA will usher in the end times." alt="Comic image" width="780px" height="250px"/>
-
 We interrupt this story arc for a new years special!  Who knows when it'll return!

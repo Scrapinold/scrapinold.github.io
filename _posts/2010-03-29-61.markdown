@@ -2,6 +2,9 @@
 layout: post
 title: "Inbox"
 issue: "61"
+image_url: "/comics/61.png"
+image_width: "874px"
+image_height: "743px"
+hover_text: "Making millions from home sure sounds easier than solving mysteries!"
 ---
-<img src="{{ site.url }}/comics/61.png" title="Making millions from home sure sounds easier than solving mysteries!" alt="Comic image" width="874px" height="743px"/>
 

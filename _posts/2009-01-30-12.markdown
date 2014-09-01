@@ -2,6 +2,9 @@
 layout: post
 title: "Rocketman"
 issue: "12"
+image_url: "/comics/12.png"
+image_width: "778px"
+image_height: "249px"
+hover_text: "Pressurized suits are for suckers."
 ---
-<img src="{{ site.url }}/comics/12.png" title="Pressurized suits are for suckers." alt="Comic image" width="778px" height="249px"/>
 

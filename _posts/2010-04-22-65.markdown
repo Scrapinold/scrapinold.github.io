@@ -2,6 +2,9 @@
 layout: post
 title: "Recycled Material"
 issue: "65"
+image_url: "/comics/65.png"
+image_width: "780px"
+image_height: "320px"
+hover_text: "This explains everything!"
 ---
-<img src="{{ site.url }}/comics/65.png" title="This explains everything!" alt="Comic image" width="780px" height="320px"/>
 

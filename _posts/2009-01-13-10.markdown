@@ -2,6 +2,9 @@
 layout: post
 title: "2148 A.D."
 issue: "10"
+image_url: "/comics/10.png"
+image_width: "778px"
+image_height: "249px"
+hover_text: "If my parents find out about this, I'll never be born!"
 ---
-<img src="{{ site.url }}/comics/10.png" title="If my parents find out about this, I'll never be born!" alt="Comic image" width="778px" height="249px"/>
 

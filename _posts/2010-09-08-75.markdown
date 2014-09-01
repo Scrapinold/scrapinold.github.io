@@ -2,6 +2,9 @@
 layout: post
 title: "Dennis Club"
 issue: "75"
+image_url: "/comics/75.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "No sane person would choose Tennis over Dennis"
 ---
-<img src="{{ site.url }}/comics/75.png" title="No sane person would choose Tennis over Dennis" alt="Comic image" width="780px" height="250px"/>
 

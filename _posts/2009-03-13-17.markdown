@@ -2,6 +2,9 @@
 layout: post
 title: "Seit Dreizehn Jahre"
 issue: "17"
+image_url: "/comics/17.png"
+image_width: "778px"
+image_height: "220px"
+hover_text: "Now, back to solving that mystery."
 ---
-<img src="{{ site.url }}/comics/17.png" title="Now, back to solving that mystery." alt="Comic image" width="778px" height="220px"/>
 

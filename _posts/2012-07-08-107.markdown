@@ -2,6 +2,9 @@
 layout: post
 title: "Literal"
 issue: "107"
+image_url: "/comics/107.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "WHO BOUGHT THIS???"
 ---
-<img src="{{ site.url }}/comics/107.png" title="WHO BOUGHT THIS???" alt="Comic image" width="780px" height="250px"/>
 

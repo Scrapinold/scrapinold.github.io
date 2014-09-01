@@ -2,6 +2,9 @@
 layout: post
 title: "Vagrant"
 issue: "68"
+image_url: "/comics/68.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "I also need more beans in cans!"
 ---
-<img src="{{ site.url }}/comics/68.png" title="I also need more beans in cans!" alt="Comic image" width="780px" height="250px"/>
 

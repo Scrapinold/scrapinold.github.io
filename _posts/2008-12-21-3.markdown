@@ -2,6 +2,9 @@
 layout: post
 title: "New Job"
 issue: "3"
+image_url: "/comics/3.png"
+image_width: "778px"
+image_height: "208px"
+hover_text: "But what College could that be???"
 ---
-<img src="{{ site.url }}/comics/3.png" title="But what College could that be???" alt="Comic image" width="778px" height="208px"/>
 

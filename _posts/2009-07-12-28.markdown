@@ -2,6 +2,9 @@
 layout: post
 title: "Lurking Variable"
 issue: "28"
+image_url: "/comics/28.gif"
+image_width: "778px"
+image_height: "230px"
+hover_text: "It's a small price to pay for that $5."
 ---
-<img src="{{ site.url }}/comics/28.gif" title="It's a small price to pay for that $5." alt="Comic image" width="778px" height="230px"/>
 

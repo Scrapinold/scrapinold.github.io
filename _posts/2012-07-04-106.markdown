@@ -2,7 +2,9 @@
 layout: post
 title: "Descriptive"
 issue: "106"
+image_url: "/comics/106.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "They are correct in a literal sense!"
 ---
-<img src="{{ site.url }}/comics/106.png" title="They are correct in a literal sense!" alt="Comic image" width="780px" height="250px"/>
-
 While looking for furniture on Craigslist, I found a listing for a "Single Sofa".  It was a chair.

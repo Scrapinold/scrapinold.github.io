@@ -2,6 +2,9 @@
 layout: post
 title: "The Wrong Ingredient"
 issue: "86"
+image_url: "/comics/86.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "Why couldn't it be squid?"
 ---
-<img src="{{ site.url }}/comics/86.png" title="Why couldn't it be squid?" alt="Comic image" width="780px" height="250px"/>
 

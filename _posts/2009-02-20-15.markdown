@@ -2,7 +2,9 @@
 layout: post
 title: "A Red-Letter Day"
 issue: "15"
+image_url: "/comics/15.gif"
+image_width: "778px"
+image_height: "249px"
+hover_text: "Happy birthday, President Gitenstien!"
 ---
-<img src="{{ site.url }}/comics/15.gif" title="Happy birthday, President Gitenstien!" alt="Comic image" width="778px" height="249px"/>
-
 President Gitenstein is, of course, the President of The College of New Jersey.

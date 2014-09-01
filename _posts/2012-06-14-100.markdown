@@ -2,6 +2,9 @@
 layout: post
 title: "Unsolved"
 issue: "100"
+image_url: "/comics/100.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "1. Robots from thousands of years in the future / 2. No / 3. Stock brokers / 4. 42 / 5. The lawn"
 ---
-<img src="{{ site.url }}/comics/100.png" title="1. Robots from thousands of years in the future / 2. No / 3. Stock brokers / 4. 42 / 5. The lawn" alt="Comic image" width="780px" height="250px"/>
 

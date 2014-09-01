@@ -2,26 +2,12 @@
 layout: default
 ---
 
-{% assign latest_post = site.posts.first %}
+{% assign page = site.posts.first %}
 
-<div class="container">
-  {{ latest_post.content }}
+<div class="container-fluid">
+  {{ page.content }}
 </div>
 
-<div class="container">
-  {% if latest_post.previous.url %} 
-    {% if latest_post.previous.url != site.posts.last.url %} 
-      <a class="btn btn-outline btn-lg" role="button" href="{{latest_post.previous.url}}">&larr; Previous</a> 
-    {% endif %} 
-    
-    <a class="btn btn-outline" role="button" href="{{site.posts.last.url}}">&larr; First</a> 
-  {% endif %} 
-  {% if latest_post.next.url %} 
-    {% if latest_post.next.url != site.posts.first.url %} 
-      <a class="btn btn-default" role="button" href="{{latest_post.next.url}}">Next &rarr;</a> 
-    {% endif %} 
-    <a class="btn btn-outline" role="button" href="{{site.posts.first.url}}">Current &rarr;</a> 
-  {% endif %} 
 
-  <a class="btn btn-outline" role="button" href="random.html" >Random</a> 
-</div>
+
+{% include navigation.html %}

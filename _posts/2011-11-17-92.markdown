@@ -2,6 +2,9 @@
 layout: post
 title: "Recipe for Murder, Part 5"
 issue: "92"
+image_url: "/comics/92.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "Another shocking twist!"
 ---
-<img src="{{ site.url }}/comics/92.png" title="Another shocking twist!" alt="Comic image" width="780px" height="250px"/>
 

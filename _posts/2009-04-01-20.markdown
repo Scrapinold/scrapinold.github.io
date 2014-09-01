@@ -2,6 +2,9 @@
 layout: post
 title: "Workers of the World, Unite!"
 issue: "20"
+image_url: "/comics/20.gif"
+image_width: "778px"
+image_height: "222px"
+hover_text: "COMRADE CHEESE SLICE!  WHAT NEWS DO YOU BRING FROM THE CAPITALIST PIGS?"
 ---
-<img src="{{ site.url }}/comics/20.gif" title="COMRADE CHEESE SLICE!  WHAT NEWS DO YOU BRING FROM THE CAPITALIST PIGS?" alt="Comic image" width="778px" height="222px"/>
 

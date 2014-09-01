@@ -2,6 +2,9 @@
 layout: post
 title: "Chapter 1"
 issue: "50"
+image_url: "/comics/50.png"
+image_width: "780px"
+image_height: "554px"
+hover_text: "Only 49688 words to go."
 ---
-<img src="{{ site.url }}/comics/50.png" title="Only 49688 words to go." alt="Comic image" width="780px" height="554px"/>
 

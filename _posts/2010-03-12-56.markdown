@@ -2,6 +2,9 @@
 layout: post
 title: "New Pet"
 issue: "56"
+image_url: "/comics/56.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "Barbarian!"
 ---
-<img src="{{ site.url }}/comics/56.png" title="Barbarian!" alt="Comic image" width="780px" height="250px"/>
 

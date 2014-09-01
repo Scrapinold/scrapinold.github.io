@@ -1,37 +1,8 @@
 ---
 layout: default
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1>Issue {{ page.issue }}: {{ page.title }}</h1>
-    <p class="meta">{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-  {{ content }}
-  </article>
-
-  <div id="post-nav" class="clearfix">
+<img src="{{ site.url }}{{ page.image_url }}" title="{{ page.hover_text }}" alt="Comic image" width="{{ page.image_width }}" height="{{ page.image_height }}"/>{% if page.content != '' %}<button id="news_btn" type="button" class="btn btn-link btn-lg glyphicon glyphicon-asterisk" data-toggle="popover" data-trigger="focus" data-content="{{ content | escape }}" data-placement="left"></button>{% endif %}
 
 
-
-  
-  {% if page.previous.url %} 
-    <a class="oldest" href="{{site.posts.last.url}}">&larr; First</a> 
-
-    {% if page.previous.url != site.posts.last.url %} 
-      <a class="prev" href="{{page.previous.url}}">&larr; Previous</a> 
-    {% endif %} 
-  {% endif %} 
-  {% if page.next.url %} 
-    {% if page.next.url != site.posts.first.url %} 
-      <a class="next" href="{{page.next.url}}">Next &rarr;</a> 
-    {% endif %} 
-    <a class="latest" href="{{site.posts.first.url}}">Current &rarr;</a> 
-  {% endif %} 
-
-  <a class="random" href="random.html" >Random</a> 
-</div>
-
-</div>
+{% include navigation.html %}

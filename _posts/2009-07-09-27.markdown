@@ -2,6 +2,9 @@
 layout: post
 title: "The Realist"
 issue: "27"
+image_url: "/comics/27.gif"
+image_width: "778px"
+image_height: "230px"
+hover_text: 'Look, I was right! ... "So says the man who is wrong!"'
 ---
-<img src="{{ site.url }}/comics/27.gif" title='Look, I was right! ... "So says the man who is wrong!"' alt="Comic image" width="778px" height="230px"/>
 

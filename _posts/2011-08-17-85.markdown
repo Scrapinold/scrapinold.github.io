@@ -2,7 +2,9 @@
 layout: post
 title: "Guilty"
 issue: "85"
+image_url: "/comics/85.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "Better sign that confession"
 ---
-<img src="{{ site.url }}/comics/85.png" title="Better sign that confession" alt="Comic image" width="780px" height="250px"/>
-
 I've been playing entirely too much Phoenix Wright

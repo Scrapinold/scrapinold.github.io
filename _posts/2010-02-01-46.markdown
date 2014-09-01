@@ -2,6 +2,9 @@
 layout: post
 title: "Scandinavian Design"
 issue: "46"
+image_url: "/comics/46.png"
+image_width: "780px"
+image_height: "230px"
+hover_text: "MYSTERY SOLVING SOFTWARE LOADING"
 ---
-<img src="{{ site.url }}/comics/46.png" title="MYSTERY SOLVING SOFTWARE LOADING" alt="Comic image" width="780px" height="230px"/>
 

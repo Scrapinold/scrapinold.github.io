@@ -2,7 +2,9 @@
 layout: post
 title: "BSOD (by K)"
 issue: "52"
+image_url: "/comics/52.jpg"
+image_width: "584px"
+image_height: "350px"
+hover_text: "Error: Upload Successful"
 ---
-<img src="{{ site.url }}/comics/52.jpg" title="Error: Upload Successful" alt="Comic image" width="584px" height="350px"/>
-
 Our first guest strip!  The artist, **K**, who has been described by experts as full-bodied, a little nutty, with fruity overtones, also has a blog which you should probably visit immediately: [http://k-studies.blogspot.com/](http://k-studies.blogspot.com/).  If *you, yes, you* would like to submit a guest strip, send us an email!  The address is "sysadmin" at this site's domain (scrapinold.com).

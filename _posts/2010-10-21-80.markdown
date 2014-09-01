@@ -2,6 +2,9 @@
 layout: post
 title: "Modern Medicine"
 issue: "80"
+image_url: "/comics/80.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "You may also be interested in one of my magnetic bracelets!"
 ---
-<img src="{{ site.url }}/comics/80.png" title="You may also be interested in one of my magnetic bracelets!" alt="Comic image" width="780px" height="250px"/>
 

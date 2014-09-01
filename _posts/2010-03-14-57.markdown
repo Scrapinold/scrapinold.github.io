@@ -2,6 +2,9 @@
 layout: post
 title: "There's an app for that"
 issue: "57"
+image_url: "/comics/57.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "★★★★★ - GREAT APP CANT BELIVE ITS ONLY ONE $"
 ---
-<img src="{{ site.url }}/comics/57.png" title="★★★★★ - GREAT APP CANT BELIVE ITS ONLY ONE $" alt="Comic image" width="780px" height="250px"/>
 

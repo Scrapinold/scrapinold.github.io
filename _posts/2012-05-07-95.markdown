@@ -2,9 +2,11 @@
 layout: post
 title: "Hidden Cost"
 issue: "95"
+image_url: "/comics/95.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "These prices seem completely reasonable."
 ---
-<img src="{{ site.url }}/comics/95.png" title="These prices seem completely reasonable." alt="Comic image" width="780px" height="250px"/>
-
 It's amazing how absurdly expensive watch batteries are!  
 
 In addition, Scrapinold is now created entirely with Inkscape, the open-source vector graphics editor!  A new layout is also included, this time featuring the font stylings of Gill Sans italic!

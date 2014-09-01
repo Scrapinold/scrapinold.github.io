@@ -2,6 +2,9 @@
 layout: post
 title: "9th Degree"
 issue: "35"
+image_url: "/comics/35.gif"
+image_width: "778px"
+image_height: "230px"
+hover_text: "By that, I mean you have to break the mirror."
 ---
-<img src="{{ site.url }}/comics/35.gif" title="By that, I mean you have to break the mirror." alt="Comic image" width="778px" height="230px"/>
 

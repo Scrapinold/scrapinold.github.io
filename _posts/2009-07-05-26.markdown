@@ -2,6 +2,9 @@
 layout: post
 title: "Semper Caesus"
 issue: "26"
+image_url: "/comics/26.gif"
+image_width: "778px"
+image_height: "230px"
+hover_text: "You...disobeyed me.  That was the test.  You've won."
 ---
-<img src="{{ site.url }}/comics/26.gif" title="You...disobeyed me.  That was the test.  You've won." alt="Comic image" width="778px" height="230px"/>
 

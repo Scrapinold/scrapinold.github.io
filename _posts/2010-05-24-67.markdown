@@ -2,6 +2,9 @@
 layout: post
 title: "Perfect Replacements"
 issue: "67"
+image_url: "/comics/67.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "THE WEATHER MUST BE DESTROYED."
 ---
-<img src="{{ site.url }}/comics/67.png" title="THE WEATHER MUST BE DESTROYED." alt="Comic image" width="780px" height="250px"/>
 

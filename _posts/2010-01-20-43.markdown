@@ -2,7 +2,9 @@
 layout: post
 title: "Future Technology"
 issue: "43"
+image_url: "/comics/43.png"
+image_width: "780px"
+image_height: "230px"
+hover_text: "I can't get enough of this Bee Movie!"
 ---
-<img src="{{ site.url }}/comics/43.png" title="I can't get enough of this Bee Movie!" alt="Comic image" width="780px" height="230px"/>
-
 Perl 6 was announced in the year 2000. It has not yet been released.

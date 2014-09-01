@@ -2,6 +2,9 @@
 layout: post
 title: "The Legend of St. Valentine"
 issue: "13"
+image_url: "/comics/13.gif"
+image_width: "778px"
+image_height: "242px"
+hover_text: "Ah, so that's why we celebrate his death."
 ---
-<img src="{{ site.url }}/comics/13.gif" title="Ah, so that's why we celebrate his death." alt="Comic image" width="778px" height="242px"/>
 

@@ -2,7 +2,9 @@
 layout: post
 title: "Conference"
 issue: "63"
+image_url: "/comics/63.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "Do you feel that pipes are still necessary for modern crime solving?  &quot;Didn't you hear my previous answer?&quot;"
 ---
-<img src="{{ site.url }}/comics/63.png" title="Do you feel that pipes are still necessary for modern crime solving?  &quot;Didn't you hear my previous answer?&quot;" alt="Comic image" width="780px" height="250px"/>
-
 I'm at CHI2010!

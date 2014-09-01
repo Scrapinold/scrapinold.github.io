@@ -1,0 +1,42 @@
+<div class="container navigation">
+
+  <div class="row">
+    <div class="col-sm-4 column">
+    {% if page.previous.url %}
+      {% assign disabled_class = '' %}
+    {% else %}
+      {% assign disabled_class = 'disabled' %}
+    {% endif %} 
+    <a class="btn btn-link btn-lg {{disabled_class}}" role="button" href="{{site.posts.last.url}}">
+      First
+    </a> 
+    <a class="btn btn-outline btn-lg {{disabled_class}}" role="button" href="{{page.previous.url}}">
+      Previous
+    </a> 
+    </div> 
+    <div class="col-sm-4 column">
+      <div class="issue_indicator">Issue {{ page.issue }} of {{ site.posts.size}}</div>
+
+      <div class="row extra_actions">
+        <div class="col-xs-6 column">
+          <a class="btn btn-link btn-lg " role="button" href="list.html" >List</a> 
+        </div>
+        <div class="col-xs-6 column">
+          <a class="btn btn-link btn-lg " role="button" href="random.html" >Random</a> 
+        </div>
+      </div>
+    </div>
+  <div class="col-sm-4 column">
+    {% if page.next.url %}
+      {% assign disabled_class = '' %}
+    {% else %}
+      {% assign disabled_class = 'disabled' %}
+    {% endif %} 
+
+    <a class="btn btn-outline btn-lg {{disabled_class}}" role="button" href="{{page.next.url}}">Next</a> 
+    <a class="btn btn-link btn-lg {{disabled_class}}" role="button" href="/">Current</a>  
+  </div>
+  </div>
+ 
+</div>
+

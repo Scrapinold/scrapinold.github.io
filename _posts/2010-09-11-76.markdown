@@ -2,6 +2,9 @@
 layout: post
 title: "Transscrapinold"
 issue: "76"
+image_url: "/comics/76.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "Don't worry, I'll just put tape over that light."
 ---
-<img src="{{ site.url }}/comics/76.png" title="Don't worry, I'll just put tape over that light." alt="Comic image" width="780px" height="250px"/>
 

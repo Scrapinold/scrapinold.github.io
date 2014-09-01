@@ -2,7 +2,9 @@
 layout: post
 title: "Tax and Spend"
 issue: "55"
+image_url: "/comics/55.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "If the government spends money on beneficial domestic programs, the terrorists WIN."
 ---
-<img src="{{ site.url }}/comics/55.png" title="If the government spends money on beneficial domestic programs, the terrorists WIN." alt="Comic image" width="780px" height="250px"/>
-
 Remember, deficit spending is only an issue if it's on programs that aren't military-related.

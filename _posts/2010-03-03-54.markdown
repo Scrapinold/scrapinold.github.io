@@ -2,7 +2,9 @@
 layout: post
 title: "Transaction Complete"
 issue: "54"
+image_url: "/comics/54.png"
+image_width: "780px"
+image_height: "230px"
+hover_text: "Curse these blasted tourists!  I have a palace to guard!"
 ---
-<img src="{{ site.url }}/comics/54.png" title="Curse these blasted tourists!  I have a palace to guard!" alt="Comic image" width="780px" height="230px"/>
-
 A continuation of the previous comic!  The name "Collins McCollins" *was* actually the name on the email that appeared in issue 53.

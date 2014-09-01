@@ -2,6 +2,9 @@
 layout: post
 title: "Recipe for Murder, Part 6"
 issue: "93"
+image_url: "/comics/93.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "Which dimension is that one again?"
 ---
-<img src="{{ site.url }}/comics/93.png" title="Which dimension is that one again?" alt="Comic image" width="780px" height="250px"/>
 

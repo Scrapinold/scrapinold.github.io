@@ -2,7 +2,9 @@
 layout: post
 title: "Digital Millennium"
 issue: "59"
+image_url: "/comics/59.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "Finally!  I can drink from my e-mug while writing e-letters with my e-pen!"
 ---
-<img src="{{ site.url }}/comics/59.png" title="Finally!  I can drink from my e-mug while writing e-letters with my e-pen!" alt="Comic image" width="780px" height="250px"/>
-
-I bought a [url=http://www.thinkgeek.com/geektoys/games/ba3d/]Rubik's TouchCube[/url] the other day when I saw it on sale at Best Buy for $20.  It's completely pointless.
+I bought a [Rubik's TouchCube](http://www.thinkgeek.com/geektoys/games/ba3d/) the other day when I saw it on sale at Best Buy for $20.  It's completely pointless.

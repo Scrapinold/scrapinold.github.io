@@ -2,6 +2,9 @@
 layout: post
 title: "All's Well That Ends Well"
 issue: "6"
+image_url: "/comics/6.png"
+image_width: "778px"
+image_height: "255px"
+hover_text: "Zeus would be proud."
 ---
-<img src="{{ site.url }}/comics/6.png" title="Zeus would be proud." alt="Comic image" width="778px" height="255px"/>
 

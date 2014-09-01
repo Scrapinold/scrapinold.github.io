@@ -2,7 +2,9 @@
 layout: post
 title: "Unsolvable"
 issue: "60"
+image_url: "/comics/60.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "Hmm...well in that case, mystery solved!"
 ---
-<img src="{{ site.url }}/comics/60.png" title="Hmm...well in that case, mystery solved!" alt="Comic image" width="780px" height="250px"/>
-
-I just watched [url=http://en.wikipedia.org/wiki/Shutter_Island_(film)]Shutter Island[/url], which was pretty trippy.
+I just watched [Shutter Island](http://en.wikipedia.org/wiki/Shutter_Island_(film)), which was pretty trippy.

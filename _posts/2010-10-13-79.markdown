@@ -2,6 +2,9 @@
 layout: post
 title: "Shock Therapy"
 issue: "79"
+image_url: "/comics/79.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "If it weren't for big government, these robots would be far more efficient!"
 ---
-<img src="{{ site.url }}/comics/79.png" title="If it weren't for big government, these robots would be far more efficient!" alt="Comic image" width="780px" height="250px"/>
 

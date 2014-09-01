@@ -2,6 +2,9 @@
 layout: post
 title: "April Fool"
 issue: "62"
+image_url: "/comics/62.gif"
+image_width: "780px"
+image_height: "250px"
+hover_text: "the joke is that it's an ipad OHHH SNAPPPPP"
 ---
-<img src="{{ site.url }}/comics/62.gif" title="the joke is that it's an ipad OHHH SNAPPPPP" alt="Comic image" width="780px" height="250px"/>
 

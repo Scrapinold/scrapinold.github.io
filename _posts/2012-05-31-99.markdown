@@ -2,6 +2,9 @@
 layout: post
 title: "Background Check"
 issue: "99"
+image_url: "/comics/99.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "Speaking of the weather, do you know any communist sympathizers?"
 ---
-<img src="{{ site.url }}/comics/99.png" title="Speaking of the weather, do you know any communist sympathizers?" alt="Comic image" width="780px" height="250px"/>
 

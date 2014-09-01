@@ -2,6 +2,9 @@
 layout: post
 title: "Agenda"
 issue: "78"
+image_url: "/comics/78.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "The homosexuals, and the Dennis Club, will obviously cause the destruction of society. Because, you know, the bible said so."
 ---
-<img src="{{ site.url }}/comics/78.png" title="The homosexuals, and the Dennis Club, will obviously cause the destruction of society. Because, you know, the bible said so." alt="Comic image" width="780px" height="250px"/>
 

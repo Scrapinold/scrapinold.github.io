@@ -2,7 +2,9 @@
 layout: post
 title: "Recipe for Murder, Part 3"
 issue: "90"
+image_url: "/comics/90.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "Also, the picture's definitely upside-down."
 ---
-<img src="{{ site.url }}/comics/90.png" title="Also, the picture's definitely upside-down." alt="Comic image" width="780px" height="250px"/>
-
 I have been playing entirely too much Phoenix Wright.

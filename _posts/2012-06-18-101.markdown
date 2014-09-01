@@ -2,6 +2,9 @@
 layout: post
 title: "High Score"
 issue: "101"
+image_url: "/comics/101.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "Vehicular Manslaughter is worth like 10,000 points, and unlocks a new accessory for your car."
 ---
-<img src="{{ site.url }}/comics/101.png" title="Vehicular Manslaughter is worth like 10,000 points, and unlocks a new accessory for your car." alt="Comic image" width="780px" height="250px"/>
 

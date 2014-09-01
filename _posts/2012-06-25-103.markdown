@@ -2,6 +2,9 @@
 layout: post
 title: "Stain Remover"
 issue: "103"
+image_url: "/comics/103.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "Afterward, the robot identified the cause of all the smoke stains as itself, and exploded."
 ---
-<img src="{{ site.url }}/comics/103.png" title="Afterward, the robot identified the cause of all the smoke stains as itself, and exploded." alt="Comic image" width="780px" height="250px"/>
 

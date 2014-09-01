@@ -2,6 +2,9 @@
 layout: post
 title: "Democracy"
 issue: "2"
+image_url: "/comics/2.png"
+image_width: "778px"
+image_height: "255px"
+hover_text: "God bless America!"
 ---
-<img src="{{ site.url }}/comics/2.png" title="God bless America!" alt="Comic image" width="778px" height="255px"/>
 

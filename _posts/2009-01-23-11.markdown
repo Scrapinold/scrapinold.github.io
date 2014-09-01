@@ -2,6 +2,9 @@
 layout: post
 title: "For Your Safety"
 issue: "11"
+image_url: "/comics/11.png"
+image_width: "778px"
+image_height: "255px"
+hover_text: "He seemed harmless, really."
 ---
-<img src="{{ site.url }}/comics/11.png" title="He seemed harmless, really." alt="Comic image" width="778px" height="255px"/>
 

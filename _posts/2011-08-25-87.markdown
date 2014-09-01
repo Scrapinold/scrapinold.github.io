@@ -2,6 +2,9 @@
 layout: post
 title: "Elementary"
 issue: "87"
+image_url: "/comics/87.png"
+image_width: "780px"
+image_height: "250px"
+hover_text: "From the evidence, it is clear that the case is unsolvable."
 ---
-<img src="{{ site.url }}/comics/87.png" title="From the evidence, it is clear that the case is unsolvable." alt="Comic image" width="780px" height="250px"/>
 

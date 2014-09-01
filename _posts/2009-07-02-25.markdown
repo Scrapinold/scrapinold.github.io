@@ -2,6 +2,9 @@
 layout: post
 title: "Pecunia Cedit Mare"
 issue: "25"
+image_url: "/comics/25.gif"
+image_width: "778px"
+image_height: "230px"
+hover_text: "Commander Scrapinold!  It's a good thing you were able to infiltrate the pirates by pretending to join them, after which you donated all their money to charity."
 ---
-<img src="{{ site.url }}/comics/25.gif" title="Commander Scrapinold!  It's a good thing you were able to infiltrate the pirates by pretending to join them, after which you donated all their money to charity." alt="Comic image" width="778px" height="230px"/>
 

@@ -2,6 +2,9 @@
 layout: post
 title: "Das Neu Jahr"
 issue: "8"
+image_url: "/comics/8.png"
+image_width: "778px"
+image_height: "249px"
+hover_text: "It's time to buy that gym membership!"
 ---
-<img src="{{ site.url }}/comics/8.png" title="It's time to buy that gym membership!" alt="Comic image" width="778px" height="249px"/>
 
