@@ -30,7 +30,7 @@ $( document ).ready(function() {
 function checkForOverflow() {
 	var body = $('body');
 
-	if (body.height() > $(window).height()) {
+	if (body.outerHeight() > $(window).height()) {
 		body.addClass('overflowing');
 	} else {
 		body.removeClass('overflowing');
