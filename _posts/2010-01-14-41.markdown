@@ -6,5 +6,6 @@ image_url: "/comics/41.png"
 image_width: "780px"
 image_height: "300px"
 hover_text: "GREETINGS COMRADE"
+has_notes: true
 ---
 Everyone likes pop culture references!  [Correct song to play during reading.](http://www.amazon.com/gp/product/B002ZJJNJI/ref=dm_dp_trk1?ie=UTF8&qid=1263334470&sr=8-5)

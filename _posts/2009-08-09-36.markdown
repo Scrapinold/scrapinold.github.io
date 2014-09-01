@@ -6,5 +6,6 @@ image_url: "/comics/36.gif"
 image_width: "778px"
 image_height: "260px"
 hover_text: "It's a good thing you brought that bloody knife!  You never know when I might strike again!"
+has_notes: true
 ---
 I saw "A Perfect Getaway" this past weekend. The best part was the complete lack of any plot movement until the very end of the film.

@@ -6,5 +6,6 @@ image_url: "/comics/21.png"
 image_width: "778px"
 image_height: "222px"
 hover_text: "Genetically identical"
+has_notes: true
 ---
 We came up with the idea for this after looking at a potato.  The original caption possibility was "How anthropomorphic dogs reproduce."

@@ -6,5 +6,6 @@ image_url: "/comics/53.png"
 image_width: "780px"
 image_height: "230px"
 hover_text: "Shouldn't be too hard to find him."
+has_notes: true
 ---
 I posted something on Craigslist yesterday and have gotten several scam responses and no real ones.  The text in the comic was pasted directly from one of them.  The title of the comic was pasted from a different scam email that I got a while ago.

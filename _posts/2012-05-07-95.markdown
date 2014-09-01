@@ -6,6 +6,7 @@ image_url: "/comics/95.png"
 image_width: "780px"
 image_height: "250px"
 hover_text: "These prices seem completely reasonable."
+has_notes: true
 ---
 It's amazing how absurdly expensive watch batteries are!  
 

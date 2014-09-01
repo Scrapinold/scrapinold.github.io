@@ -6,5 +6,6 @@ image_url: "/comics/58.png"
 image_width: "780px"
 image_height: "250px"
 hover_text: "No, we're only here to have an in-depth discussion regarding the nature of tea.  Drinking it would spoil the conversation. "
+has_notes: true
 ---
 [http://en.wikipedia.org/wiki/Tea_Party_movement](http://en.wikipedia.org/wiki/Tea_Party_movement)

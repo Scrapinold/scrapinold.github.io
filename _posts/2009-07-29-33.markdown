@@ -6,5 +6,6 @@ image_url: "/comics/33.gif"
 image_width: "778px"
 image_height: "247px"
 hover_text: "Your call may be recorded for quality assurance purposes."
+has_notes: true
 ---
 The Disco Squad just got Google Voice, which is apparently the system to get for the true voicemail aficionados among us. Unfortunately, it's invite only. For now.

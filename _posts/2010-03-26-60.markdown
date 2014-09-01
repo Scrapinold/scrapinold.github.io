@@ -6,5 +6,6 @@ image_url: "/comics/60.png"
 image_width: "780px"
 image_height: "250px"
 hover_text: "Hmm...well in that case, mystery solved!"
+has_notes: true
 ---
 I just watched [Shutter Island](http://en.wikipedia.org/wiki/Shutter_Island_(film)), which was pretty trippy.

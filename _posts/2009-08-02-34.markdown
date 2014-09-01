@@ -6,6 +6,7 @@ image_url: "/comics/34.gif"
 image_width: "778px"
 image_height: "230px"
 hover_text: "Incidentally, Tiny Tim will also die.  You might want to consider getting him a plan, as a Christmas present."
+has_notes: true
 ---
 When I first encountered the term "life insurance" when I was little, I had no idea what insuring life might entail.
 

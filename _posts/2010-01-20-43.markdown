@@ -6,5 +6,6 @@ image_url: "/comics/43.png"
 image_width: "780px"
 image_height: "230px"
 hover_text: "I can't get enough of this Bee Movie!"
+has_notes: true
 ---
 Perl 6 was announced in the year 2000. It has not yet been released.

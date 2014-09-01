@@ -6,5 +6,6 @@ image_url: "/comics/32.gif"
 image_width: "778px"
 image_height: "230px"
 hover_text: "Fair enough."
+has_notes: true
 ---
 I tried to mail a letter the other day to an address that I've personally been to, and it was returned today saying it was undeliverable. Naturally, the stamp had been canceled.

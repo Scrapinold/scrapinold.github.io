@@ -6,5 +6,6 @@ image_url: "/comics/82.png"
 image_width: "780px"
 image_height: "250px"
 hover_text: "Coming up next: could not watching the news on this channel every day kill your children?"
+has_notes: true
 ---
 With a new year comes a new design, this time taking inspiration from instruction manuals of the 1990s!

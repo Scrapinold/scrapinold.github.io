@@ -6,5 +6,6 @@ image_url: "/comics/51.png"
 image_width: "780px"
 image_height: "230px"
 hover_text: "Now if you'll excuse me, I'm going to watch some movies cropped to 1024x768."
+has_notes: true
 ---
 [http://en.wikipedia.org/wiki/File:Apple_Newton_and_iPhone.jpg](http://en.wikipedia.org/wiki/File:Apple_Newton_and_iPhone.jpg)

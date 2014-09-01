@@ -6,5 +6,6 @@ image_url: "/comics/44.png"
 image_width: "780px"
 image_height: "230px"
 hover_text: "At last, I have tracked down the elusive guest0185!"
+has_notes: true
 ---
 Lol, France is a real place, according to Wikipedia.  Of course, the British Railways Board dissolved in 2001.  And probably never operated in France.

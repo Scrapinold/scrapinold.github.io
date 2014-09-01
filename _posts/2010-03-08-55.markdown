@@ -6,5 +6,6 @@ image_url: "/comics/55.png"
 image_width: "780px"
 image_height: "250px"
 hover_text: "If the government spends money on beneficial domestic programs, the terrorists WIN."
+has_notes: true
 ---
 Remember, deficit spending is only an issue if it's on programs that aren't military-related.

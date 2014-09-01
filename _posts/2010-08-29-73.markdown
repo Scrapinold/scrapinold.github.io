@@ -6,6 +6,7 @@ image_url: "/comics/73.png"
 image_width: "780px"
 image_height: "250px"
 hover_text: "I didn't even realize you had invented the cane!"
+has_notes: true
 ---
 Patents nowadays are getting completely absurd.  Apple claims to have invented/patented multitouch, but in fact it has been actively researched [since the 1980s](http://portal.acm.org/citation.cfm?id=1165385.317461).
 

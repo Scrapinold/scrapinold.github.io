@@ -3,8 +3,9 @@ layout: default
 ---
 
 {% assign page = site.posts.first %}
+{% assign content = page.content %}
 
-<img src="{{ site.url }}{{ page.image_url }}" title="{{ page.hover_text }}" alt="Comic image" width="{{ page.image_width }}" height="{{ page.image_height }}"/>{% if page.content != '' %}<button id="news_btn" type="button" class="btn btn-link btn-lg glyphicon glyphicon-asterisk" data-toggle="popover" data-trigger="focus" data-content="{{ page.content | escape }}" data-placement="left"></button>{% endif %}
 
+{% include comic.html %}
 
 {% include navigation.html %}

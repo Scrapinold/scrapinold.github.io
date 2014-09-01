@@ -6,5 +6,6 @@ image_url: "/comics/72.png"
 image_width: "780px"
 image_height: "250px"
 hover_text: "HOW COULD YOU NOT KNOW THE ANSWER TO THAT QUESTION?"
+has_notes: true
 ---
 A while ago Vinay Deolalikar came up with a proof that P was not equal to NP.  Apparently some people didn't like it.
