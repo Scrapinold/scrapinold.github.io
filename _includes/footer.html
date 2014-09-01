@@ -7,6 +7,25 @@
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 <script>
-$("[data-toggle=popover]")
-.popover({html:true})
+
+$( document ).ready(function() {
+	$("[data-toggle=popover]").popover({html:true})
+
+	checkForOverflow();
+
+	$(window).on('resize', checkForOverflow);
+
+});
+
+function checkForOverflow() {
+	var container = $('#main_container');
+
+	if(container[0].scrollHeight > container[0].clientHeight) {
+		container.addClass('overflowing');
+	} else {
+		container.removeClass('overflowing');
+	}
+}
+
+
 </script>
