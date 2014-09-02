@@ -3,9 +3,10 @@ body {
   font-size: 16px;
   color: white;
   text-align: center;
-  background: black url('images/bg.jpg') center top no-repeat fixed;
+/*  background: black url('images/bg.jpg') center top no-repeat fixed;
   background-size: cover;
-  padding-bottom: 72px;
+*/  padding-bottom: 72px;
+background: #222;
 
   /* since we only weird text-floating-over-backgrounds */
   -webkit-font-smoothing: antialiased;
