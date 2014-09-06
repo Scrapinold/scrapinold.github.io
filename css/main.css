@@ -1,3 +1,5 @@
+
+
 body {
   font-family: Inconsolata, "Consolas", "Menlo", "Monaco", "Andale Mono", "DejaVu Mono", "Bitstream Vera Mono", monospace;
   font-size: 16px;
@@ -5,11 +7,30 @@ body {
   text-align: center;
   background: black url('images/bg.jpg') center top no-repeat fixed;
   background-size: cover;
+  
   padding-bottom: 72px;
-/*background: #222;*/
 
   /* since we only weird text-floating-over-backgrounds */
   -webkit-font-smoothing: antialiased;
+}
+
+
+@media (max-width: 767px) {
+  body {
+    background: #333;
+  }
+}
+
+
+
+#bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  z-index: -1;
 }
 
 a {
@@ -55,7 +76,19 @@ a:hover, a:focus {
   }
 }
 
+.comic {
+  height: auto;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
 
+.comic img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
 /* nav bar */
 
@@ -74,6 +107,18 @@ a:hover, a:focus {
 .overflowing .navigation {
   background: rgba(0,0,0,0.8);
 }
+
+@media (max-width: 767px) {
+  .navigation {
+    position: static;
+  }
+
+  .overflowing .navigation {
+    background: transparent;
+  } 
+}
+
+
 
 .navigation > .row {
   margin: 0px auto;
