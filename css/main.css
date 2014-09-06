@@ -196,13 +196,11 @@ a:hover, a:focus {
 /* news popover */
 
 #news_btn {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   opacity: 0.2;
-  vertical-align: top;
   transition: opacity 0.1s;
   padding: 0;
-  margin-right: -40px;
 }
 
 #news_btn:hover, #news_btn:focus {
@@ -212,18 +210,30 @@ a:hover, a:focus {
   text-decoration: none
 }
 
-
-.popover {
+#news_text .container, .popover {
   background-color: rgba(0, 0, 0, 0.8);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   word-wrap: break-word;
-  max-width: 500px;
   box-shadow: none;
   border: 0 none;
+  padding: 15px;
+  border-radius: 4px;
+  text-align: left;
+  max-width: 500px;
 }
 
-.popover.left .arrow:after {
-  border-left-color: rgba(0, 0, 0, 0.75);
+#news_text .container hr {
+  border-color: #666;
+  margin: 10px 0px;
+}
+
+.popover.top .arrow:after {
+  border-top-color: rgba(0, 0, 0, 0.75);
+}
+
+
+.popover a {
+  color: #ddd;
 }
 
 /* list page */
@@ -250,7 +260,11 @@ a:hover, a:focus {
   color: #0E5A9C;
 }
 
-hr {
+.post-content img {
+  max-width: 100%;
+}
+
+.post-content hr {
   border-color: black;
 }
 

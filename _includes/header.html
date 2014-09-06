@@ -8,19 +8,18 @@
 	{% assign is_post = true %}
 {% endunless %}
 
-
 {% if is_post == true %}
   <ul class="nav nav-pills pull-left">
     <li><a href="/"><span class="glyphicon glyphicon-home"></span> Back to Main page</a></li>
   </ul>
 {% endif %}
-
+  
 
 
   <ul class="nav nav-pills pull-right">
-    {% for page in site.pages %}
-      {% if page.title %}
-      	<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+    {% for p in site.pages %}
+      {% if p.title and p.title != page.title %}
+      	<li><a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
       {% endif %}
     {% endfor %}
   </ul>

@@ -1,3 +1,22 @@
 <div class="comic">
-<img src="{{ site.url }}{{ page.image_url }}" title="{{ page.hover_text }}" alt="Comic image" width="{{ page.image_width }}" height="{{ page.image_height }}" />{% if page.has_notes %}<a href="#" tabindex="0" id="news_btn" type="button" class="btn btn-link btn-lg glyphicon glyphicon-asterisk" data-toggle="popover" data-trigger="focus" data-content="{{ content | escape }}" data-placement="left"></a>{% endif %}
+<img src="{{ site.url }}{{ page.image_url }}" title="{{ page.hover_text }}" alt="Comic image" width="{{ page.image_width }}" height="{{ page.image_height }}" />
+</div>
+
+{% if page.has_notes %}
+<div class="hidden-xs">
+<a href="#" tabindex="0" id="news_btn" type="button" class="btn btn-link btn-lg glyphicon glyphicon-asterisk" data-toggle="popover" data-trigger="focus" data-content="{{ content | escape }}" data-placement="top"></a>
+</div>
+{% endif %}
+
+<div class="visible-xs">
+<a href="#news_text" id="news_btn" type="button" class="btn btn-link btn-lg glyphicon glyphicon-asterisk" data-toggle="collapse"></a>
+<div id="news_text" class="panel-collapse collapse">
+	<div class="container">
+		{{ page.hover_text }}
+		{% if page.has_notes %}
+		<hr />
+		{{ content }}
+		{% endif %}
+	</div>
+</div>
 </div>
