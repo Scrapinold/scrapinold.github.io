@@ -81,10 +81,12 @@ a:hover, a:focus {
   position: relative;
   display: block;
   margin: 0 auto;
+  width: 100%;
+  overflow: auto;
 }
 
 .comic img {
-  max-width: 100%;
+  /*max-width: 100%;*/
   height: auto;
   display: block;
   margin: 0 auto;
