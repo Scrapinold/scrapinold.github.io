@@ -8,13 +8,15 @@
 
 <script>
 
+checkForOverflow();
+
 $( document ).ready(function() {
 	$("[data-toggle=popover]").popover({html:true})
 
 	checkForOverflow();
 
 	$(window).on('resize', checkForOverflow);
-	$('#news_btn').bind('click', checkForOverflow);
+	
 
 	$(document).bind('keydown', function(e) {
 	    if ((e.keyCode || e.which) == 37) {
@@ -26,8 +28,11 @@ $( document ).ready(function() {
 	    }
 	});
 
+	setInterval(checkForOverflow, 100);
 
 });
+
+
 
 function checkForOverflow() {
 	var body = $('body');
@@ -38,7 +43,7 @@ function checkForOverflow() {
 		body.removeClass('overflowing');
 	}
 
-	body.css('padding-bottom', $('.navigation').outerHeight() + 'px');
+	body.css('padding-bottom', $('.navigation').outerHeight() + 20 + 'px');
 }
 
 
