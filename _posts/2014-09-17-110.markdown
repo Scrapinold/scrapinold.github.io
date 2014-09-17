@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Utopia Part 3"
+issue: "109"
+image_url: "/comics/110.png"
+image_width: "750px"
+image_height: "250px"
+hover_text: A rational consumer would've sent the toothpaste to a laboratory for testing before trying it out.
+---
