@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Utopia Part 4"
+issue: "111"
+image_url: "/comics/111.png"
+image_width: "750px"
+image_height: "544px"
+hover_text: You are never truly free until you can freely contract yourself into indentured servitude.
+---
