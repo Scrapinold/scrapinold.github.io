@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Utopia Part 5"
+issue: "112"
+image_url: "/comics/112.png"
+image_width: "750px"
+image_height: "484px"
+hover_text: Only $1.99 for a modem rental? What a deal!
+---
