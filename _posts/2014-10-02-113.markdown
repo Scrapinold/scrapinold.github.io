@@ -5,5 +5,5 @@ issue: "113"
 image_url: "/comics/113.png"
 image_width: "750px"
 image_height: "277px"
-hover_text: Food becomes alive rapidly between the temperatures of 40° F and 140° F. After food is safely cooked, hot food must be kept hot at 140° F or hotter to prevent food anthropomorphization. 
+hover_text: Food becomes alive rapidly between the temperatures of 40° F and 140° F. After food is safely cooked, hot food must be kept hot at 140° F or hotter to prevent food anthropomorphization.
 ---
