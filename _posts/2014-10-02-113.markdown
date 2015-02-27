@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Refrigerator: Part 1"
+title: "Refrigerator"
 issue: "113"
 image_url: "/comics/113.png"
 image_width: "750px"
