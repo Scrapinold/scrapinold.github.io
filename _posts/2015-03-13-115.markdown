@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Interested"
+issue: "115"
+image_url: "/comics/115.png"
+image_width: "750px"
+image_height: "277px"
+hover_text: Finally, a member of our target audience! The focus groups were right!
+has_notes: true
+---
+Apple has hinted that *all* versions of the Apple Watch will be behind glass at their stores.
