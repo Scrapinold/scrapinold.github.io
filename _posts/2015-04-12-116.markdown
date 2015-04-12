@@ -1,0 +1,12 @@
+---
+layout: post
+title: "GNU plus Linux"
+issue: "116"
+image_url: "/comics/116.png"
+image_width: "750px"
+image_height: "369px"
+has_notes: true
+hover_text: "Isn't it ironic that the proprietary software developers call us communists? We are the ones who have provided for a free market, where they allow only monopoly. … if the users chooses this proprietary software package, he then falls into this monopoly for support … the only way to escape from monopoly is to escape from proprietary software, and that is what the free software movement is all about. We want you to escape and our work is to help you escape. We hope you will escape to the free world. The free world is the new continent in cyberspace that we have built so we can live here in freedom. It's impossible to live in freedom in the old world of cyberspace, where every program has its feudal lord that bullies and mistreats the users. So, to live in freedom we have to build a new continent. Because this is a virtual continent, it has room for everyone, and there are no immigration restrictions. And because there were never indigenous peoples in cyberspace, there is also no issue of taking away their land. So everyone is welcome in the free world, come to the free world, live with us in freedom. The free software movement aims for the liberation of cyberspace and everyone in it."
+
+---
+[http://www.urbandictionary.com/define.php?term=GNU/Linux](http://www.urbandictionary.com/define.php?term=GNU/Linux)
