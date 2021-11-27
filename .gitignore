@@ -1,4 +1,4 @@
 _site
-.vendor
+vendor
 .bundle
 .DS_Store
