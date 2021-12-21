@@ -1,250 +1,107 @@
 
 
 body {
-  font-family: Inconsolata, "Consolas", "Menlo", "Monaco", "Andale Mono", "DejaVu Mono", "Bitstream Vera Mono", monospace;
+  font-family: 'Apple Garamond', 'Garamond', 'Adobe Garamond', 'Times New Roman', serif;
   font-size: 16px;
-  color: white;
+  color: black;
   text-align: center;
-  background: black url('images/bg.jpg') center top no-repeat fixed;
-  background-size: cover;
-  
-  padding-bottom: 72px;
-
-  /* since we only weird text-floating-over-backgrounds */
-  -webkit-font-smoothing: antialiased;
-}
-
-
-@media (max-width: 767px) {
-  body {
-    background: #333;
-  }
-}
-
-
-
-#bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: 100%;
-  z-index: -1;
+  background: white;
 }
 
 a {
-  color: white;
+  color: inherit;
 }
 
-a:hover, a:focus {
-  color: white;
-  text-decoration: underline;
+/* comic */
+
+.comic-container {
+  margin: 0 auto;
+  width: auto;
+  display: inline-block;
+  position: relative;
 }
 
-.title a {
-  color: rgba(255, 255, 255, 0.6);
-}
-.title a > b {
-  color: white;
+.comic-deco {
+  background-color: black;
+  height: 2px;
+  display: block;
+  margin: 6px -30px;
 }
 
-.title a:hover, .title a:focus {
-  color: rgba(255, 255, 255, 0.6);
+.comic-deco::before, .comic-deco::after {
+  display: block;
+  content: '';
+  width: 68px;
+  height: 18px;
+  background-image: url('images/deco-comic-corner.svg');
+  position: absolute;
+}
+
+.comic-deco::before {
+  left: -76px;
+}
+
+.comic-deco::after {
+  right: -76px;
+  transform: scaleX(-1);
+}
+
+.comic-deco-upper::before, .comic-deco-upper::after {
+  top: 14px; 
+}
+
+.comic-deco-lower::before, .comic-deco-lower::after {
+  bottom: 14px; 
+}
+
+.comic-img {
+  display: block;
+}
+
+/* nav */
+
+.comic-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.comic-nav > a {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-decoration: none;
 }
 
-.lead {
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.header {
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-}
-
-.header a {
-  text-transform: uppercase;
-}
-
-@media (max-width: 767px) {
-  .jumbotron {
-    padding: 20px 0 0 0;
-  }
-}
-
-.comic {
-  height: auto;
-  position: relative;
+.comic-nav > a::before {
+  content: '';
   display: block;
-  margin: 0 auto;
-  width: 100%;
-  overflow: auto;
+  width: 64px;
+  height: 64px;
 }
 
-.comic img {
-  /*max-width: 100%;*/
-  height: auto;
-  display: block;
-  margin: 0 auto;
+.nav-first::before {
+  background-image: url('images/icon-first.svg');
 }
 
-/* nav bar */
-
-.navigation {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: transparent;
-  text-transform: uppercase;
-  height: auto;
-  padding-top: 10px;
-  transition: background 0.2s;
+.nav-prev::before {
+  background-image: url('images/icon-prev.svg');
 }
 
-.overflowing .navigation {
-  background: rgba(0,0,0,0.8);
+.nav-list::before {
+  background-image: url('images/icon-list.svg');
 }
 
-@media (max-width: 767px) {
-  .navigation {
-    position: static;
-  }
-
-  .overflowing .navigation {
-    background: transparent;
-  } 
+.nav-random::before {
+  background-image: url('images/icon-random.svg');
 }
 
-
-
-.navigation > .row {
-  margin: 0px auto;
-  width: 100%;
+.nav-next::before {
+  background-image: url('images/icon-next.svg');
 }
 
-@media (min-width: 1140px) {
-  .navigation > .row {
-    width: 80%;
-    margin: 0px auto;
-  }
-}
-
-
-
-.navigation .btn-lg {
-  width: 100px;
-  height: 50px;
-  padding: 12px 16px;
-}
-
-.navigation .btn-lg.btn-outline {
-  width: 154px;
-}
-
-@media (max-width: 992px) {
-  .navigation .btn-lg {
-    width: 69px;
-  }
-
-  .navigation .btn-lg.btn-outline {
-    width: 130px;
-  }
-}
-
-
-.navigation .btn-sm {
-  width: 50px;
-  height: 30px;
-  margin-bottom: 10px;
-  font-size: 14px;
-}
-
-.issue_indicator {
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 18px;
-}
-
-/* special button styles */
-
-.btn-outline {
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  background-color: rgba(255, 255, 255, 0.25);
-  transition: all 0.2s;
-  color: white;
-} 
-
-.btn-outline:hover, .btn-outline:focus, .btn-outline:active {
-  color: #333;
-  text-shadow: none;
-  background-color: #fff;
-  border-color: #fff;
-} 
-
-.btn-link, .btn-link:hover {
-  color: white;
-}
-
-.extra_actions .btn {
-  padding-top: 0;
-  height: auto;
-}
-
-/* news popover */
-
-#news_btn {
-  width: 30px;
-  height: 30px;
-  opacity: 0.2;
-  transition: opacity 0.1s;
-  padding: 0;
-}
-
-#news_btn:hover, #news_btn:focus {
-  outline: none;
-  color: white;
-  opacity: 1;
-  text-decoration: none
-}
-
-#news_text .container, .popover {
-  background-color: rgba(0, 0, 0, 0.8);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  word-wrap: break-word;
-  box-shadow: none;
-  border: 0 none;
-  padding: 15px;
-  border-radius: 4px;
-  text-align: left;
-  max-width: 500px;
-}
-
-#news_text .container hr {
-  border-color: #666;
-  margin: 10px 0px;
-}
-
-.popover.top .arrow:after {
-  border-top-color: rgba(0, 0, 0, 0.75);
-}
-
-
-.popover a {
-  color: #ddd;
-}
-
-/* list page */
-.nav > li > a {
-  transition: background-color 0.1s;
-}
-
-.nav > li > a:hover {
-  background-color: rgba(255,255,255,0.2);
+.nav-current::before {
+  background-image: url('images/icon-current.svg');
 }
 
 /* about page */
@@ -258,48 +115,20 @@ a:hover, a:focus {
   max-width:960px;
 }
 
-.post-content a {
-  color: #0E5A9C;
-}
+/* dark mode */
+/* todo: add toggle */
 
-.post-content img {
-  max-width: 100%;
-}
-
-.post-content hr {
-  border-color: black;
-}
-
-/* specific bootstrap overrides */
-
-h1, .h1 {
-  font-family: inherit;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.jumbotron {
-  background: transparent;
-  margin-bottom: 0;
-}
-
-.jumbotron.short {
-  padding-bottom: 0;
-}
-
-@media screen and (min-width: 768px) {
-  .jumbotron {
-    padding-top: 70px;
-    padding-bottom: 48px;
+/* @media (prefers-color-scheme: dark) {
+  body {
+    color: white;
+    background-color: #333;
   }
 
-  .jumbotron h1, .jumbotron .h1 {
-    font-size: 48px;
+  .comic-deco {
+    background-color: white;
   }
-}
 
-@media (min-width: 768px) {
-  .lead {
-    font-size: 18px;
+  .comic-deco::before, .comic-deco::after {
+    filter: invert(1);
   }
-}
+} */

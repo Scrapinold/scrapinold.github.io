@@ -4,53 +4,29 @@
 </footer>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script src="js/oldLinkRedirector.js" ></script>
 
 <script>
 
-checkForOverflow();
-
 $( document ).ready(function() {
-	$("[data-toggle=popover]").popover({html:true})
-
-	checkForOverflow();
-
-	$(window).on('resize', checkForOverflow);
-
+	var prevUrl = '{{page.previous.url}}';
+	var nextUrl = '{{page.next.url}}';
 
 	$(document).bind('keydown', function(e) {
 	    if ((e.keyCode || e.which) == 37) {
 	        // Left arrow key pressed
-	        window.location.href = $('#prev_link').attr('href');
+	        window.location.href = prevUrl;
 	    } else if ((e.keyCode || e.which) == 39) {
 	        // right arrow key pressed
-	        window.location.href = $('#next_link').attr('href');
+	        window.location.href = nextUrl;
 	    }
 	});
 
-	setInterval(checkForOverflow, 100);
-
 });
-
-
-
-function checkForOverflow() {
-	var body = $('body');
-
-	if (body.outerHeight() > $(window).height()) {
-		body.addClass('overflowing');
-	} else {
-		body.removeClass('overflowing');
-	}
-
-	body.css('padding-bottom', $('.navigation').outerHeight() + 20 + 'px');
-}
-
 
 </script>
 
-<script>
+<!-- <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -60,4 +36,4 @@ function checkForOverflow() {
   ga('require', 'displayfeatures');
   ga('send', 'pageview');
 
-</script>
+</script> -->

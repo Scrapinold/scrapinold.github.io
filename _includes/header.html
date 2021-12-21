@@ -1,6 +1,14 @@
-<!-- <img id="bg" src="/css/images/bg.jpg" /> -->
+<header>
+  <h1>
+    <a href="{{ site.baseurl }}/">
+      <div><b>Freaky T</b> and the <b>Disco Squad</b> present...</p></div>
+      <div>Scrapinold Dooington</div>
+      <div>in</div>
+      <div>The <b>New Adventures</b> of <b>Scrapinold</b>: the <b>Later Years</b></div>
+    </a>
+  </h1>
 
-<div class="header">
+  
 
 {% assign is_post = false %}
 
@@ -8,27 +16,17 @@
 	{% assign is_post = true %}
 {% endunless %}
 
-{% if is_post == true %}
-  <ul class="nav nav-pills pull-left">
-    <li><a href="/"><span class="glyphicon glyphicon-home"></span> Back to Main page</a></li>
-  </ul>
-{% endif %}
-  
 
-
-  <ul class="nav nav-pills pull-right">
+  <!-- <ul class="nav">
     {% for p in site.pages %}
       {% if p.title and p.title != page.title %}
       	<li><a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
       {% endif %}
     {% endfor %}
-  </ul>
+  </ul> -->
 
-</div>
+  {% unless page.url == '/about.html' %}
+    <a href="about.html">About this publication</a>
+  {% endunless %}
 
-<div class="jumbotron title {% if is_post %}short{% endif %}">
-  <div class="container">
-    <h1 class="title"><a href="{{ site.baseurl }}/">The New Adventures of <b>Scrapinold Dooington</b></a></h1>
-    <p class="lead">By Freaky T and the Disco Squad</p>
-  </div>
-</div>
+</header>

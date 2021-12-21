@@ -6,7 +6,7 @@ layout: default
     <ul class="nav nav-pills nav-stacked">
     {% for post in site.posts %}
       <li>
-        <a href="{{ post.url }}">Issue {{ post.issue }}: {{ post.title }}</a>
+        <a href="{{ post.url }}"><b>Issue {{ post.issue }}:</b> <i>{{ post.title }}</i></a>
       </li>
     {% endfor %}
     </ul>
