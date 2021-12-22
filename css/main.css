@@ -1,5 +1,30 @@
 
 
+@font-face {
+  font-family: 'Apple Garamond';
+  src: url('./fonts/AppleGaramond.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Apple Garamond';
+  font-style: italic;
+  src: url('./fonts/AppleGaramond-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Apple Garamond';
+  font-weight: bold;
+  src: url('./fonts/AppleGaramond-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Apple Garamond';
+  font-weight: bold;
+  font-style: italic;
+  src: url('./fonts/AppleGaramond-BoldItalic.woff2') format('woff2');
+}
+
+
 body {
   font-family: 'Apple Garamond', 'Garamond', 'Adobe Garamond', 'Times New Roman', serif;
   font-size: 16px;
