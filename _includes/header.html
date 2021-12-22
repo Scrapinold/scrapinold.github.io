@@ -1,15 +1,13 @@
 <header>
-  <h1>
+  <h1 class="title">
     <a href="{{ site.baseurl }}/">
-      <div><b>Freaky T</b> and the <b>Disco Squad</b> present...</p></div>
-      <div>Scrapinold Dooington</div>
-      <div>in</div>
-      <div>The <b>New Adventures</b> of <b>Scrapinold</b>: the <b>Later Years</b></div>
+      <div class="title-by"><b>Freaky T</b> and the <b>Disco Squad</b> present...</div>
+      <div class="title-scrapinold">Scrapinold Dooington</div>
+      <div class="title-in">in</div>
+      <div class="title-full">The <b>New Adventures</b> of <b>Scrapinold</b>: the <b>Later Years</b></div>
     </a>
   </h1>
-
   
-
 {% assign is_post = false %}
 
 {% unless page.id or page.url == '/index.html' %}
@@ -26,7 +24,7 @@
   </ul> -->
 
   {% unless page.url == '/about.html' %}
-    <a href="about.html">About this publication</a>
+    <a class="link-about" href="about.html">About this Publication</a>
   {% endunless %}
 
 </header>

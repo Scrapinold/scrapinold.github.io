@@ -2,10 +2,10 @@
 layout: page
 title: About this Publication
 ---
+<h3>Mission Statement</h3>
 <p>
 The New Adventures of Scrapinold Dooington is a surrealist comic chronicling the crazy post-retirement adventures of the world-renowned detective Scrapinold Dooington, alongside with a lovable cast of characters.
 </p>
-<hr />
 <h3>History</h3>
 <p>
 <a href="images/scrapinold1-orig.png" title="Click for full-size"><img width="35%" style="float: right" src='images/scrapinold1-orig.png' /></a>
