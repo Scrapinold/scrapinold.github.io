@@ -1,17 +1,28 @@
 
 <nav class="comic-nav">
-  {% if page.previous.url %}
+
+  <div class="nav-container-back">
+    {% if page.previous.url %}
     <a class="nav-first" href="{{site.posts.last.url}}">Initial Issue</a>
     <a class="nav-prev" id="prev_link" href="{{page.previous.url}}">Previous Issue</a>
-  {% endif %} 
+    {% endif %} 
+  </div>
+
+  <div class="nav-container-spacer"></div>
 
   <!-- <div class="issue_indicator">Issue {{ page.issue }} of {{ site.posts.size}}</div> -->
 
-  <a class="nav-list" href="list.html" >List all past issues</a> 
-  <a class="nav-random" href="random.html" >View an arbitrarily-selected issue</a> 
+  <div class="nav-container-special">
+    <a class="nav-list" href="list.html" >List all past issues</a> 
+    <a class="nav-random" href="random.html" >View a random issue</a> 
+  </div>
 
-  {% if page.next.url %}
-    <a class="nav-next" id="next_link" class="btn btn-outline btn-lg {{disabled_class}}" href="{{page.next.url}}">Next Issue</a> 
-    <a class="nav-current" href="/">Current Issue</a>  
-  {% endif %} 
+  <div class="nav-container-spacer"></div>
+
+  <div class="nav-container-forward">
+    {% if page.next.url %}
+      <a class="nav-next" id="next_link" class="{{disabled_class}}" href="{{page.next.url}}">Next Issue</a> 
+      <a class="nav-current" href="/">Current Issue</a>  
+    {% endif %} 
+  </div>
 </nav>

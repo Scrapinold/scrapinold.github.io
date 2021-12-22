@@ -125,7 +125,7 @@ a {
 }
 
 .link-about:hover::before {
-  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -5deg);
+  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 5deg);
 }
 
 .link-about:hover::after {
@@ -185,8 +185,15 @@ a {
   justify-content: center;
 }
 
-.comic-nav > a {
-  width: 120px;
+.comic-nav > div {
+  display: flex;
+}
+
+.comic-nav a {
+  width: 64px;
+  padding: 10px;
+  font-size: 18px;
+  font-style: italic;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -194,16 +201,25 @@ a {
   position: relative;
 }
 
-.comic-nav > a::before {
+.comic-nav a:focus-visible {
+  outline: 0;
+  border: 1px solid #666;
+  margin: -1px;
+  border-radius: 4px;
+  background-color: #eee;
+}
+
+.comic-nav a::before {
   content: '';
   display: block;
   width: 64px;
   height: 64px;
   transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 0deg);
   transition: transform 350ms;
+  margin-bottom: -4px;
 }
 
-.comic-nav > a::after {
+.comic-nav a::after {
   content: '';
   height: 2px;
   width: calc(100%);
@@ -212,16 +228,30 @@ a {
   box-shadow: inset 101px 0px 10px -10px white, inset -101px 0px 10px -10px white;
   background-color: black;
   position: absolute;
-  bottom: -16px;
+  bottom: 4px;
   left: 0;
 }
 
-.comic-nav > a:hover::after {
+.comic-nav a:hover::after {
   box-shadow: inset 0px 0px 10px -10px white, inset 0px 0px 10px -10px white;
 }
 
-.comic-nav > a:hover::before {
+.comic-nav a:hover::before {
   transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 2deg);
+}
+
+/* ensure that the controls don't shift around when it is hidden */ 
+.nav-container-back, .nav-container-forward {
+  min-width: 168px;
+}
+
+.nav-container-special a {
+  width: 100px;
+}
+
+.nav-container-spacer {
+  flex-grow: 1;
+  max-width: 100px;
 }
 
 .nav-first::before {
