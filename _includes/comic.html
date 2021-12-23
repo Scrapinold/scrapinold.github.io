@@ -5,12 +5,16 @@
 </div>
 
 {% if page.has_notes %}
-<div class="hidden-xs">
-<a href="#" tabindex="0" id="news_btn" type="button" class="btn btn-link btn-lg glyphicon glyphicon-asterisk" data-toggle="popover" data-trigger="focus" data-content="{{ content | escape }}" data-placement="top"></a>
+<div class="notes-section">
+	<button class="notes-button" onclick="alert(`{{content}}`)">View notes for this issue...</button>
 </div>
 {% endif %}
 
-<div class="visible-xs">
+
+
+<!-- <div class="hidden-xs"> -->
+
+<!-- <div class="visible-xs">
 <a href="#news_text" id="news_btn" type="button" class="btn btn-link btn-lg glyphicon glyphicon-asterisk" data-toggle="collapse"></a>
 <div id="news_text" class="panel-collapse collapse">
 	<div class="container">
@@ -20,4 +24,4 @@
 		{% endif %}
 	</div>
 </div>
-</div>
+</div> -->
