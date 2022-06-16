@@ -1,12 +1,17 @@
 <div class="comic-container">
-	<div class="comic-deco comic-deco-upper"></div>
+	<div class="comic-deco comic-deco-upper hidden-mobile"></div>
 	<img class="comic-img" src="{{ site.url }}{{ page.image_url }}" title="{{ page.hover_text }}" alt="Comic image" width="{{ page.image_width }}" height="{{ page.image_height }}" />
-	<div class="comic-deco comic-deco-lower"></div>
+	<div class="comic-deco comic-deco-lower hidden-mobile"></div>
 </div>
 
 {% if page.has_notes %}
+
 <div class="notes-section">
-	<button class="notes-button" onclick="alert(`{{content}}`)">View notes for this issue...</button>
+	<button class="notes-button" aria-expanded="false" aria-controls="notes">View notes for this issue...</button>
+
+	<div class="notes-text" id="notes-text">
+		{{content}}
+	</div>
 </div>
 {% endif %}
 

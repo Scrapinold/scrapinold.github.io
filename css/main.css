@@ -43,6 +43,13 @@ a {
   align-items: center;
 } */
 
+@media screen and (max-width: 600px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+
+
 .title {
   margin-top: 14px;
   margin-bottom: 4px;
@@ -176,6 +183,8 @@ a {
 
 .comic-img {
   display: block;
+  max-width: calc(100vw - 10px);
+  height: auto;
 }
 
 /* nav */
