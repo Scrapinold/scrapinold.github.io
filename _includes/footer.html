@@ -24,6 +24,16 @@ $( document ).ready(function() {
 
 });
 
+function toggleNotes(e) {
+	if($('#notes-text').hasClass('notes-visible')) {
+		$('#notes-text').removeClass('notes-visible');
+		$('#notes-button').attr('aria-expanded', false);
+	} else {
+		$('#notes-text').addClass('notes-visible');
+		$('#notes-button').attr('aria-expanded', true);
+	}
+}
+
 </script>
 
 <!-- <script>

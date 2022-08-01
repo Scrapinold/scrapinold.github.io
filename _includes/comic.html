@@ -4,16 +4,28 @@
 	<div class="comic-deco comic-deco-lower hidden-mobile"></div>
 </div>
 
-{% if page.has_notes %}
 
 <div class="notes-section">
-	<button class="notes-button" aria-expanded="false" aria-controls="notes">View notes for this issue...</button>
+	<button type="button" id="notes-button" aria-expanded="false" aria-controls="notes-text" onclick="toggleNotes()">View details for this issue</button>
 
 	<div class="notes-text" id="notes-text">
-		{{content}}
+		<p>
+			<b>Date posted:</b>
+			{{ page.date | date: "%A, %B" }} 
+			{{ page.date | date: "%d" | plus:'0' }}, 
+			{{ page.date | date: "%Y" }}
+		</p>
+		<p>
+			<b>Hover text:</b>
+			{{ page.hover_text }}
+		</p>
+
+		{% if page.has_notes %}
+				<b>Issue notes:</b>
+				{{content}}
+		{% endif %}
 	</div>
 </div>
-{% endif %}
 
 
 
