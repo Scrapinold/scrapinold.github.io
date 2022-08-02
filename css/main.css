@@ -52,7 +52,7 @@ a {
 
 .title {
   margin-top: 0.875em;
-  margin-bottom: 0.25em;
+  margin-bottom: 12px;
   font-size: 12px;
 }
 
@@ -293,6 +293,11 @@ a {
   background-image: url('images/icon-current.svg');
 }
 
+.notes-section {
+  margin-bottom: 16px;
+  margin-top: 10px;
+}
+
 #notes-button {
   background-color: white;
   border: 0 none;
@@ -349,6 +354,13 @@ a {
   .notes-text {
     transition: none;
   }
+  .link-about::before, .link-about::after {
+    transition: none;
+  }
+
+  .comic-nav a::before, .comic-nav a::after {
+    transition: none;
+  }
 }
 
 .notes-text > p, .notes-text > div {
@@ -369,6 +381,47 @@ a {
   font-size: 14px;
   transform: scaleY(1);
   max-height: 100em;
+}
+
+/* footer */
+footer {
+  display: flex;
+}
+
+.footer-links {
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  padding: 16px 0;
+}
+
+.footer-links a {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background-position: center center;
+  /* Hide text but keep it visible to screen readers */
+  transition: transform 350ms;
+  transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 0deg);
+  background-repeat: no-repeat;
+  font-size: 0;
+  color: transparent;
+}
+
+.footer-links a:hover {
+  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 1deg);
+}
+
+.rss-link {
+  background-image: url('./images/icon-rss.svg');
+}
+
+.cc-link {
+  background-image: url('./images/icon-cc.svg');
+}
+
+.github-link {
+  background-image: url('./images/icon-github.svg');
 }
 
   /* macos button if i ever want to bring that back */
