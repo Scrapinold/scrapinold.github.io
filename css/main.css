@@ -51,16 +51,17 @@ a {
 
 
 .title {
-  margin-top: 14px;
-  margin-bottom: 4px;
+  margin-top: 0.875em;
+  margin-bottom: 0.25em;
+  font-size: 12px;
 }
 
 .title > a {
   text-decoration: none;
   font-weight: normal;
   font-style: italic;
-  font-size: 20px;
-  max-width: 23rem;
+  font-size: 1.25em;
+  max-width: 26em;
   margin: 0 auto;
   display: block;
 }
@@ -69,41 +70,46 @@ a {
   text-transform: uppercase;
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 .title-scrapinold {
   font-weight: bold;
-  font-size: 48px;
+  font-size: 3em;
   font-style: normal;
   text-transform: uppercase;
 }
 
 .title-in {
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 .title-full {
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 .title-full b {
-  font-size: 30px;
+  font-size: 1.375em;
 }
+
+/* @media screen and (max-width: 480px) {
+  .title {
+    font-size: 2vw;
+  }
+} */
 
 /* header navigation */
 .link-about {
   font-size: 18px;
   text-decoration: none;
   font-style: italic;
-  position: absolute;
-  top: 4px;
-  right: 0;
+  float: right;
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* box-shadow: 45px 2px #C4C4C4; */
   padding-right: 16px;
+  left: 8px;
 }
 
 .link-about::before {
@@ -165,12 +171,12 @@ a {
 }
 
 .comic-deco::before {
-  left: -76px;
+  transform: translateX(-46px);
 }
 
 .comic-deco::after {
-  right: -76px;
-  transform: scaleX(-1);
+  transform: scaleX(-1) translateX(-76px);
+  right: 0;
 }
 
 .comic-deco-upper::before, .comic-deco-upper::after {
@@ -292,7 +298,7 @@ a {
   border: 0 none;
   font-family: inherit;
   font-style: italic;
-  /* text-decoration: underline; */
+  color: black;
   font-size: inherit;
   display: flex;
   cursor: pointer;
@@ -311,11 +317,9 @@ a {
 }
 
 .notes-text {
-  /* display: none; */
-  padding: 12px;
   border-radius: 8px;
   border: 2px dashed black;
-  width: fit-content;
+  word-break: break-word;
   margin: 0 auto;
   margin-top: -10px;
   position: relative;
@@ -338,23 +342,33 @@ a {
   transition: 250ms ease all;
   transform-origin: top center;
   transform: scaleY(0);
-  /* display: none; */
+  max-height: 0px;
 }
 
-.notes-text > p {
-  margin: 0;
+@media (prefers-reduced-motion) {
+  .notes-text {
+    transition: none;
+  }
 }
-.notes-text > p:not(:last-child) {
-  margin-bottom: 4px;
-  padding-bottom: 4px;
+
+.notes-text > p, .notes-text > div {
+  margin: 12px;
+}
+.notes-text > p:not(:last-child), .notes-text > div:not(:last-child) {
+  padding-bottom: 12px;
   border-bottom: 1px solid #ddd;
+}
+
+.notes-content > p:first-of-type {
+  margin-top: 0;
 }
 
 .notes-text.notes-visible {
   /* display: block; */
   opacity: 1;
-  /* font-size: 14px; */
+  font-size: 14px;
   transform: scaleY(1);
+  max-height: 100em;
 }
 
   /* macos button if i ever want to bring that back */

@@ -1,7 +1,7 @@
 <div class="comic-container">
-	<div class="comic-deco comic-deco-upper hidden-mobile"></div>
+	<div class="comic-deco comic-deco-upper"></div>
 	<img class="comic-img" src="{{ site.url }}{{ page.image_url }}" title="{{ page.hover_text }}" alt="Comic image" width="{{ page.image_width }}" height="{{ page.image_height }}" />
-	<div class="comic-deco comic-deco-lower hidden-mobile"></div>
+	<div class="comic-deco comic-deco-lower"></div>
 </div>
 
 
@@ -21,24 +21,10 @@
 		</p>
 
 		{% if page.has_notes %}
-				<b>Issue notes:</b>
-				{{content}}
+		<div class="notes-content">
+			<b>Issue notes:</b>
+			{{content}}
+		</div>
 		{% endif %}
 	</div>
 </div>
-
-
-
-<!-- <div class="hidden-xs"> -->
-
-<!-- <div class="visible-xs">
-<a href="#news_text" id="news_btn" type="button" class="btn btn-link btn-lg glyphicon glyphicon-asterisk" data-toggle="collapse"></a>
-<div id="news_text" class="panel-collapse collapse">
-	<div class="container">
-		{{ page.hover_text }}
-		{% if page.has_notes %}
-		{{ content }}
-		{% endif %}
-	</div>
-</div>
-</div> -->

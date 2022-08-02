@@ -1,4 +1,8 @@
 <header>
+  {% unless page.url == '/about.html' %}
+    <a class="link-about" href="about.html">About this Publication</a>
+  {% endunless %}
+
   <h1 class="title">
     <a href="{{ site.baseurl }}/">
       <div class="title-by"><b>Freaky T</b> and the <b>Disco Squad</b> present...</div>
@@ -22,9 +26,5 @@
       {% endif %}
     {% endfor %}
   </ul> -->
-
-  {% unless page.url == '/about.html' %}
-    <a class="link-about" href="about.html">About this Publication</a>
-  {% endunless %}
 
 </header>
