@@ -1,6 +1,6 @@
 <div class="comic-container">
 	<div class="comic-deco comic-deco-upper"></div>
-	<img class="comic-img" src="{{ site.url }}{{ page.image_url }}" title="{{ page.hover_text }}" alt="Comic image" width="{{ page.image_width }}" height="{{ page.image_height }}" />
+	<img class="comic-img" src="{{ site.url }}{{ page.image_url }}" title="{{ page.hover_text | xml_escape }}" alt="Comic image" width="{{ page.image_width }}" height="{{ page.image_height }}" />
 	<div class="comic-deco comic-deco-lower"></div>
 </div>
 
@@ -17,7 +17,7 @@
 		</p>
 		<p>
 			<b>Hover text:</b>
-			{{ page.hover_text }}
+			{{ page.hover_text | xml_escape }}
 		</p>
 
 		{% if page.has_notes %}
