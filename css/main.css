@@ -189,8 +189,8 @@ a {
 
 .comic-img {
   display: block;
-  max-width: calc(100vw - 10px);
-  height: auto;
+  /* max-width: calc(100vw - 10px); */
+  /* height: auto; */
 }
 
 /* nav */
