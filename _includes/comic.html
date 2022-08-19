@@ -1,5 +1,5 @@
 <header>
-	<a class="link-about" href="about.html">About this Publication</a>
+	<!-- <a class="link-about" href="about.html">About this Publication</a> -->
 
 	<h1 class="title">
 		<a href="{{ site.baseurl }}/">
@@ -12,11 +12,10 @@
 </header>
 
 <div class="comic-container">
-	<div class="comic-deco comic-deco-upper"></div>
+	<div class="comic-margin-left"></div>
 	<img class="comic-img" src="{{ site.url }}{{ page.image_url }}" title="{{ page.hover_text | xml_escape }}" alt="Comic image" width="{{ page.image_width }}" height="{{ page.image_height }}" />
-	<div class="comic-deco comic-deco-lower"></div>
+	<div class="comic-margin-right"></div>
 </div>
-
 
 <div class="notes-section">
 	<button type="button" id="notes-button" aria-expanded="false" aria-controls="notes-text" onclick="toggleNotes()">View details for this issue</button>
