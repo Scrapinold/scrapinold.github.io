@@ -2,7 +2,7 @@
 layout: post
 title: "Enter the Squid"
 issue: "14"
-image_url: "/comics/14.png"
+image_url: "/comics/14.jpg"
 image_width: "778px"
 image_height: "255px"
 hover_text: "This explains everything!"

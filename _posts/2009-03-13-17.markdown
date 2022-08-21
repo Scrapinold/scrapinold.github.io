@@ -2,7 +2,7 @@
 layout: post
 title: "Seit Dreizehn Jahre"
 issue: "17"
-image_url: "/comics/17.png"
+image_url: "/comics/17.jpg"
 image_width: "778px"
 image_height: "220px"
 hover_text: "Now, back to solving that mystery."

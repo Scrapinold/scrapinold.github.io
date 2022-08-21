@@ -2,7 +2,7 @@
 layout: post
 title: "The Legend of St. Valentine"
 issue: "13"
-image_url: "/comics/13.gif"
+image_url: "/comics/13.jpg"
 image_width: "778px"
 image_height: "242px"
 hover_text: "Ah, so that's why we celebrate his death."
