@@ -5,6 +5,6 @@ issue: "108"
 image_url: "/comics/108.png"
 image_width: "750px"
 image_height: "300px"
-hover_text: This so-called &quot;environment&quot; is a liberal conspiracy!
+hover_text: This so-called "environment" is a liberal conspiracy!
 ---
 
