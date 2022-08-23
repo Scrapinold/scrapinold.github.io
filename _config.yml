@@ -1,10 +1,8 @@
 # Site settings
 title: Scrapinold
-# email: your-email@domain.com
 description: "A comic chronicling the crazy post-retirement adventures of the world-renowned detective Scrapinold Dooington, alongside with a lovable cast of characters."
 baseurl: ""
 url: ""
-#twitter_username: jekyllrb
 github_username:  scrapinold
 
 # Build settings

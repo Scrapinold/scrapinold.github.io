@@ -104,7 +104,6 @@ a {
   flex-direction: row;
   align-items: center;
   padding-right: 16px;
-  left: 8px;
 }
 
 .link-about::before {
