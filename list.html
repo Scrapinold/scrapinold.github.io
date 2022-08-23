@@ -1,11 +1,11 @@
 ---
 layout: page 
 title: A tabulation of all issues, past and present
-subtitle: Presented in reverse chronological order
+subtitle: Presented chronologically, from the oldest to newest
 ---
 
-<ol class="issue-list" reversed>
-{% for post in site.posts %}
+<ol class="issue-list">
+{% for post in site.posts reversed %}
   <li>
     <a href="{{ post.url }}"><b>Issue {{ post.issue }}:</b> <i>{{ post.title }}</i></a>
   </li>

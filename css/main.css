@@ -94,31 +94,49 @@ a {
 } */
 
 /* header navigation */
-.link-about {
+
+.page-header {
+  margin-top: 30vh;
+  text-align: left;
+}
+
+.page-header h1 {
+  font-size: 64px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.page-header .subtitle {
+  font-size: 24px;
+  font-style: italic;
+  margin-top: .5em;
+}
+
+.nav-link {
   font-size: 18px;
   text-decoration: none;
   font-style: italic;
-  float: right;
-  position: relative;
+  position: absolute;
+  top: 8px;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  padding-right: 16px;
 }
 
-.link-about::before {
+
+
+.nav-link::before {
   content: '';
   height: 32px;
   width: 32px;
   flex-shrink: 0;
   display: block;
-  margin-right: 4px;
+  /* margin-right: 4px; */
   background: url('images/icon-star.svg');
   transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 0deg);
   transition: transform 350ms;
 }
 
-.link-about::after {
+.nav-link::after {
   content: '';
   height: 2px;
   width: calc(100% - 1ex - 32px);
@@ -131,12 +149,35 @@ a {
   left: calc(32px + 1ex);
 }
 
-.link-about:hover::before {
-  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 5deg);
+.nav-link:hover::before {
+  transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 2deg);
 }
 
-.link-about:hover::after {
+.nav-link:hover::after {
   box-shadow: inset -202px 0px 10px -10px black;
+}
+
+/* Todo make into link-right */
+.link-about {
+  right: 0;
+  flex-direction: row;
+  padding-right: 12px;
+}
+
+/* Todo make into link-left */
+.link-home {
+  left: 0;
+  padding-left: 12px;
+}
+
+.link-home::before {
+  background-image: url('images/icon-back-sm.svg'); 
+  margin-right: 8px;
+}
+
+.link-home::after {
+  width: calc(100% - 2ex - 36px);;
+  left: calc(34px + 2ex);
 }
 
 /* comic */
@@ -422,14 +463,26 @@ footer {
   text-align: left;
   margin: 0 auto;
   max-width: 960px;
+  padding: 0 1em;
 }
 
 /* list page */
 .issue-list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 18px;
 }
 
-.issue-list li {
-  padding: 5px;
+.issue-list a {
+  text-decoration-color: #ccc;
+  text-decoration-thickness: 2px;
+  transition: text-decoration-color 250ms;
+  padding: 0.7em 0;
+  display: block;
+}
+
+.issue-list a:hover {
+  text-decoration-color: black;
 }
 
 /* dark mode */
