@@ -2,7 +2,7 @@
 layout: post
 title: "Facsimile"
 issue: "21"
-image_url: "/comics/21.png"
+image_url: "/comics/21.jpg"
 image_width: "778px"
 image_height: "222px"
 hover_text: "Genetically identical"

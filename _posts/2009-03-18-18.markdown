@@ -2,7 +2,7 @@
 layout: post
 title: "Q. E. D."
 issue: "18"
-image_url: "/comics/18.gif"
+image_url: "/comics/18.jpg"
 image_width: "778px"
 image_height: "222px"
 hover_text: "Take that, math."

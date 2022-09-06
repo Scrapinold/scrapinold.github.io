@@ -11,10 +11,24 @@ layout: none
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <language>en-us</language>
+    <image>
+      <url>{{ "/favicon.png" | prepend: site.baseurl | prepend: site.url }}</url>
+    </image>
+    {% for post in site.posts %}
       <item>
         <title>Issue {{ post.issue }}: {{ post.title | xml_escape }}</title>
-        <description></description>
+        <description>
+          <![CDATA[
+            <img src="{{ post.image_url | prepend: site.baseurl | prepend: site.url }}" title="{{ post.hover_text | xml_escape }}" alt="Comic image" width="{{ post.image_width }}" height="{{ post.image_height }}" />
+            <h4>Hover Text:</h4>
+            {{ post.hover_text }}
+            {% if post.has_notes %}
+            <h4>Issue Notes</h4>
+            {{ post.content }}
+            {% endif %}
+          ]]>
+        </description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>

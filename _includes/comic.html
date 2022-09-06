@@ -1,22 +1,56 @@
-<div class="comic">
-<img src="{{ site.url }}{{ page.image_url }}" title="{{ page.hover_text }}" alt="Comic image" width="{{ page.image_width }}" height="{{ page.image_height }}" />
+<div class="comic-container">
+	<div class="comic-margin-left"></div>
+	<img class="comic-img" src="{{ site.url }}{{ page.image_url }}" title="{{ page.hover_text | xml_escape }}" alt="Comic image" width="{{ page.image_width }}" height="{{ page.image_height }}" />
+	<div class="comic-margin-right"></div>
 </div>
 
-{% if page.has_notes %}
-<div class="hidden-xs">
-<a href="#" tabindex="0" id="news_btn" type="button" class="btn btn-link btn-lg glyphicon glyphicon-asterisk" data-toggle="popover" data-trigger="focus" data-content="{{ content | escape }}" data-placement="top"></a>
-</div>
-{% endif %}
+<div class="notes-section">
+	<button type="button" id="notes-button" aria-expanded="false" aria-controls="notes-text" onclick="toggleNotes()">View details for this issue</button>
 
-<div class="visible-xs">
-<a href="#news_text" id="news_btn" type="button" class="btn btn-link btn-lg glyphicon glyphicon-asterisk" data-toggle="collapse"></a>
-<div id="news_text" class="panel-collapse collapse">
-	<div class="container">
-		{{ page.hover_text }}
+	<div class="notes-text" id="notes-text">
+		<p>
+			<b>Date posted:</b>
+			{{ page.date | date: "%A, %B" }} 
+			{{ page.date | date: "%d" | plus:'0' }}, 
+			{{ page.date | date: "%Y" }}
+		</p>
+		<p>
+			<b>Hover text:</b>
+			{{ page.hover_text | xml_escape }}
+		</p>
+
 		{% if page.has_notes %}
-		<hr />
-		{{ content }}
+		<div class="notes-content">
+			<b>Issue notes:</b>
+			{{content}}
+		</div>
 		{% endif %}
 	</div>
 </div>
-</div>
+
+<nav class="comic-nav">
+	<div class="nav-container-back">
+		{% if page.previous.url %}
+		<a class="nav-first" href="{{site.posts.last.url}}">Initial Issue</a>
+		<a class="nav-prev" id="prev_link" href="{{page.previous.url}}">Previous Issue</a>
+		{% endif %} 
+	</div>
+
+	<div class="nav-container-spacer"></div>
+
+	<!-- <div class="issue_indicator">Issue {{ page.issue }} of {{ site.posts.size}}</div> -->
+
+	<div class="nav-container-special">
+		<a class="nav-list" href="list.html" >List all past issues</a> 
+		<a class="nav-random" href="random.html" >View a random issue</a> 
+	</div>
+
+	<div class="nav-container-spacer"></div>
+
+	<div class="nav-container-forward">
+		{% if page.next.url %}
+		<a class="nav-next" id="next_link" href="{{page.next.url}}">Next Issue</a> 
+		<a class="nav-current" href="/">Current Issue</a>  
+		{% endif %} 
+	</div>
+</nav>

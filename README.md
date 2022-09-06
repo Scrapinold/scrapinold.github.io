@@ -5,15 +5,15 @@ The New Adventures of Scrapinold Dooington is a surrealist comic chronicling the
 
 ## Template
 
-This site also demonstrates a pure-Jekyll webcomic template that is compatible with Github pages! 
+This site also demonstrates a pure-Jekyll webcomic template that is compatible with Github pages! Features include...
 
-* Responsive design automatically scales for mobile devices
-* Mobile-compatible alt-text visualization
-* Fixed-position navigation bar for easy binge reading
-* Random comic function
+* Random issue function
+* Hover text
+* Issue notes
+* Fully responsive
 
 ## License
-The theme and template are licensed under the The MIT License (MIT), so go ahead and fork the site to make your own webcomics!
+The theme and template are licensed under the The MIT License (MIT)
 
 The comics themselves are licensed under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/)
 

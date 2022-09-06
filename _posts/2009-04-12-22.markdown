@@ -2,7 +2,7 @@
 layout: post
 title: "Antihistamine"
 issue: "22"
-image_url: "/comics/22.gif"
+image_url: "/comics/22.jpg"
 image_width: "778px"
 image_height: "222px"
 hover_text: "Well, that's what most people want to buy."

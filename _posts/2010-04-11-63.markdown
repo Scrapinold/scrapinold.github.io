@@ -5,7 +5,7 @@ issue: "63"
 image_url: "/comics/63.png"
 image_width: "780px"
 image_height: "250px"
-hover_text: "Do you feel that pipes are still necessary for modern crime solving?  &quot;Didn't you hear my previous answer?&quot;"
+hover_text: "Do you feel that pipes are still necessary for modern crime solving?  \"Didn't you hear my previous answer?\""
 has_notes: true
 ---
 I'm at CHI2010!
