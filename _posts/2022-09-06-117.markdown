@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Nightlife"
+issue: "116"
+image_url: "/comics/117.png"
+image_width: "740px"
+image_height: "259px"
+has_notes: true
+hover_text: "Another evening well spent!"
+---
+Only 7 years since the previous comic!
