@@ -2,6 +2,8 @@
 
 The New Adventures of Scrapinold Dooington is a surrealist comic chronicling the crazy post-retirement adventures of the world-renowned detective Scrapinold Dooington, alongside with a lovable cast of characters.
 
+Read it at www.scrapinold.com!
+
 ## Template
 
 This site also demonstrates a pure-Jekyll webcomic template that is compatible with Github pages! Features include...
