@@ -1,5 +1,4 @@
-# ![Scrapilogo](images/favicons/favicon-96x96.png) The New Adventures of Scrapinold Dooington
-
+<img alt="Scrapinold Logo" src="favicon.png" width="128" height="128" />
 
 The New Adventures of Scrapinold Dooington is a surrealist comic chronicling the crazy post-retirement adventures of the world-renowned detective Scrapinold Dooington, alongside with a lovable cast of characters.
 
